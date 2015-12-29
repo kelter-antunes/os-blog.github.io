@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rymer Answers: The Future of Enterprise Apps
+title: Rymer Answers - The Future of Enterprise Apps
 date: 2010-06-15 08:28
 author: mozzello
 comments: true

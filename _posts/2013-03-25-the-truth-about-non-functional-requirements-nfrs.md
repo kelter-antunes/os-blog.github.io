@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Functional Requirements and Their Poor Cousins: The Truth About Non-Functional Requirements (NFRs)
+title: "Functional Requirements and Their Poor Cousins: The Truth About Non-Functional Requirements (NFRs)"
 date: 2013-03-25 17:58
 author: gborrega
 comments: true

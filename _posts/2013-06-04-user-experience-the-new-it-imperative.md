@@ -1,6 +1,6 @@
 ---
 layout: post
-title: User Experience: The New IT Imperative?
+title: User Experience - The New IT Imperative?
 date: 2013-06-04 14:26
 author: Rodrigo
 comments: true

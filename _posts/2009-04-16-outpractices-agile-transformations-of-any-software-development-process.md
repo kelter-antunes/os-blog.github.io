@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OutPractices: Agile Transformations of any Software Development Process
+title: OutPractices - Agile Transformations of any Software Development Process
 date: 2009-04-16 16:18
 author: mozzello
 comments: true

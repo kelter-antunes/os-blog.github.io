@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Forrester Wave Report: OutSystems Named a Leader in Enterprise Public Cloud Platforms for Rapid Developers
+title: Forrester Wave Report - OutSystems Named a Leader in Enterprise Public Cloud Platforms for Rapid Developers
 date: 2014-12-29 23:49
 author: sean
 comments: true
-categories: [AD&amp;D, Forrester Wave, PaaS, Perspectives, Public Cloud, RAD, Rapid Application Delivery, Rapid Application Development]
+categories: [Forrester Wave, PaaS, Perspectives, Public Cloud, RAD, Rapid Application Delivery, Rapid Application Development]
 ---
 The Rapid Application Delivery (RAD) and Platform as a Service (PaaS) markets are littered with solutions that attempt to solve various challenges application development and delivery (AD&amp;D) organizations face today.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First Two Agile Projects: Lessons Learned
+title: First Two Agile Projects - Lessons Learned
 date: 2010-04-16 15:43
 author: mozzello
 comments: true

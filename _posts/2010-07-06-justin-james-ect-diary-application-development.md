@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Developer Diary: Justin James gathers user feedback with ECT
+title: Developer Diary - Justin James gathers user feedback with ECT
 date: 2010-07-06 16:58
 author: Rodrigo
 comments: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: From Channel9: Speed of RAD Meets the Simplicity of Azure
+title: From Channel9 - Speed of RAD Meets the Simplicity of Azure
 date: 2015-09-02 19:38
 author: mlopes
 comments: true

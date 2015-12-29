@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rapid Application Development: Moving the Problem to the Right
+title: Rapid Application Development - Moving the Problem to the Right
 date: 2015-01-19 16:45
 author: sean
 comments: true

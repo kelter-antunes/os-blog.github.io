@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Business Analysts in Agile:  Love'em or Hate'em?
+title: "Business Analysts in Agile: Love'em or Hate'em?"
 date: 2012-10-31 14:25
 author: Rodrigo
 comments: true

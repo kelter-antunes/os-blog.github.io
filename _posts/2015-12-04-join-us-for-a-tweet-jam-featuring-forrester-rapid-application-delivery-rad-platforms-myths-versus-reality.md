@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tweet Jam Featuring Forrester:  Rapid Application Delivery (RAD) Platforms - Myths versus Reality
+title: Tweet Jam Featuring Forrester - Rapid Application Delivery (RAD) Platforms - Myths versus Reality
 date: 2015-12-04 14:40
 author: annconrad
 comments: true

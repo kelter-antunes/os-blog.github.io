@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Modernizing Legacy for Mobile Use: Look Before You Leap
+title: "Modernizing Legacy for Mobile Use: Look Before You Leap"
 date: 2013-03-04 20:45
 author: mozzello
 comments: true

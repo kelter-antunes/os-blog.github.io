@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducing Agile: Hidden Benefits (and some challenges)
+title: Introducing Agile - Hidden Benefits (and some challenges)
 date: 2009-04-16 15:47
 author: mozzello
 comments: true

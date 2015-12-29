@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Web Security: How OutSystems Protects Your Applications and Data
+title: "Web Security: How OutSystems Protects Your Applications and Data"
 date: 2013-05-10 15:03
 author: nantunes
 comments: true

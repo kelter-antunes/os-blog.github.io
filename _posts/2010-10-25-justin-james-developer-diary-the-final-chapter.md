@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Justin James' Developer Diary: The Final Chapter
+title: Justin James' Developer Diary - The Final Chapter
 date: 2010-10-25 10:57
 author: Rodrigo
 comments: true

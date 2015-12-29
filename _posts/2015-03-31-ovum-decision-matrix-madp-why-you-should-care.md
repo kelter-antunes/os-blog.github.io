@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ovum Decision Matrix: MADP - Why You Should Care
+title: Ovum Decision Matrix - MADP - Why You Should Care
 date: 2015-03-31 13:44
 author: sean
 comments: true

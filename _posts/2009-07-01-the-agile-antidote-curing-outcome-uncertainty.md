@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Agile Remedy:  Curing Outcome Uncertainty?
+title: The Agile Remedy - Curing Outcome Uncertainty?
 date: 2009-07-01 15:55
 author: mwj
 comments: true

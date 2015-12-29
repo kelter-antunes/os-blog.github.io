@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Hat-Trick of IT Failure: Maintenance, Backlogs, Change
+title: "The Hat-Trick of IT Failure: Maintenance, Backlogs, Change"
 date: 2013-02-14 17:02
 author: mfitten
 comments: true

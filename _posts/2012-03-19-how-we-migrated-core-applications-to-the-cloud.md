@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Big Move: How We Migrated Core Applications to the Cloud
+title: "The Big Move: How We Migrated Core Applications to the Cloud"
 date: 2012-03-19 12:54
 author: acacio
 comments: true

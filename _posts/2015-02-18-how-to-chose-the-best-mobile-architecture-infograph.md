@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Native vs Web vs Hybrid: Which Mobile Architecture is Right for Your App?
+title: Native vs Web vs Hybrid - Which Mobile Architecture is Right for Your App?
 date: 2015-02-18 17:02
 author: Rodrigo
 comments: true

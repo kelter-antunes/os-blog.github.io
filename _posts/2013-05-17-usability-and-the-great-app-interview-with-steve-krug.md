@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Usability and The Great App: An Interview With Steve Krug
+title: Usability and The Great App - An Interview With Steve Krug
 date: 2013-05-17 10:52
 author: mozzello
 comments: true

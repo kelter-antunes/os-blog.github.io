@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Developers & Processes: A topic for Programmer Day 2010
+title: Developers & Processes - A topic for Programmer Day 2010
 date: 2010-09-20 10:21
 author: gborrega
 comments: true

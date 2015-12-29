@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OutSystems Platform 9 Amsterdam: RAD is Here to Stay
+title: OutSystems Platform 9 Amsterdam - RAD is Here to Stay
 date: 2015-04-27 18:00
 author: sean
 comments: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Developer Diary: Justin James integrates & deploys an application with the Agile Platform
+title: Developer Diary - Justin James integrates & deploys an application with the Agile Platform
 date: 2010-06-25 08:56
 author: Rodrigo
 comments: true

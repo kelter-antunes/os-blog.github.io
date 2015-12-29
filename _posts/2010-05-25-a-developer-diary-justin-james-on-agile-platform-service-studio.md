@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Developer Diary: Justin James on the Agile Platform Service Studio
+title: A Developer Diary - Justin James on the Agile Platform Service Studio
 date: 2010-05-25 19:18
 author: Maysoon
 comments: true

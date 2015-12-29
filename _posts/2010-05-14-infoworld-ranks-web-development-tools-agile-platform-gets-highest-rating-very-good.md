@@ -1,6 +1,6 @@
 ---
 layout: post
-title: InfoWorld ranks web development tools: Agile Platform gets highest rating "very good"
+title: InfoWorld ranks web development tools - Agile Platform gets highest rating "very good"
 date: 2010-05-14 12:09
 author: mwj
 comments: true

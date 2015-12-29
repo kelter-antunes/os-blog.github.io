@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Save money and deliver ahead of schedule: The SATA story
+title: "Save money and deliver ahead of schedule: The SATA story"
 date: 2011-11-10 11:47
 author: mwj
 comments: true

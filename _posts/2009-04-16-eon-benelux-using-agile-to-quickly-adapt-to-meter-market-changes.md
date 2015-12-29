@@ -1,6 +1,6 @@
 ---
 layout: post
-title: E.ON Benelux: Using Agile to Quickly Adapt to Meter Market Changes
+title: E.ON Benelux - Using Agile to Quickly Adapt to Meter Market Changes
 date: 2009-04-16 13:12
 author: mozzello
 comments: true

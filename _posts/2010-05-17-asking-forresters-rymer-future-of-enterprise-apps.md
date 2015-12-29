@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Asking Forrester's Rymer: Future of Enterprise Apps?
+title: Asking Forrester's Rymer - Future of Enterprise Apps?
 date: 2010-05-17 19:41
 author: mozzello
 comments: true
