@@ -1,0 +1,30 @@
+---
+layout: post
+title: Agile Beyond Development
+date: 2010-02-08 23:31
+author: Rodrigo
+comments: true
+categories: [Perspectives]
+---
+<div>This weekend I had the opportunity to speak at <a href="http://engineering.sogeti.nl/Home/index.jsp">Engineering World 2010</a>, a conference dedicated to analyzing the next step in engineering maturity and productivity. This conference is organized by <a href="http://www.sogeti.nl/">Sogeti</a>, an OutSystems' partner, and was held at the Achmea Conference Center in Zeist.<!--more--></div>
+<div></div>
+<img class="mt-image-right" style="float: right; margin: 0 0 20px 20px;" alt="sew2010-collage.png" src="https://www.outsystems.com/blog/wp-content/uploads/2010/02/sew2010-collage2.png" width="214" height="387" />
+<div>I got there at about lunchtime, and the building entrance was filled with about 200 people getting ready to eat. I would've liked to attend the other presentations, but unfortunately they were all in Dutch... As soon as I got there, I was briefed on the proceedings of the conference and moved on to prepare the room; after I've gotten a typical dutch lunch consisting of sandwiches, that is!</div>
+<div></div>
+<div>By the time I started there were still a few empty chairs, but overall the room was nicely packed. My goal was to talk a bit about how <b>Agile concepts and practices apply to the full software lifecycle</b>, not only to software development. I gave particular attention to software maintenance, since it accounts for about 85% of the IT budget.</div>
+<div></div>
+<div>I started out by giving a short introduction on Agile, and quickly moved on to the juicy stuff. To illustrate my point, I picked a few examples of important or recurrent issues that occur when working in maintenance mode:</div>
+<div></div>
+<div>
+<ul>
+	<li><b>Staging and Deploying</b></li>
+	<li><b>Gathering User Feedback</b></li>
+	<li><b>Cost of Change and Technological Debt</b></li>
+	<li><b>Fitting Business Processes in an Application</b></li>
+</ul>
+</div>
+<div></div>
+<div>For each of these issues, I talked about the problems they pose to both developers and management; I also showed how the <a href="http://www.outsystems.com/agile-platform">Agile Platform</a> addresses each of these challenges, to give a better idea of how you can apply <b>Agile beyond development</b> (<a href="http://www.slideshare.net/kutuma/agile-beyond-development">you can see the presentation slides here</a>).</div>
+<div></div>
+<div>I was very happy with the audience's reaction to my talk. There was a lot of nodding in agreement with the problems presented, and I'm convinced <b>a lot of them had already experienced the troubles I was highlighting</b>! I also spotted a lot of curiosity about the way the Agile Platform helps decrease the burden of maintenance, and I'm guessing a few of the attendants will download the <a href="http://www.outsystems.com/download">Community Edition</a> of the Platform to give it a try!</div>
+&nbsp;

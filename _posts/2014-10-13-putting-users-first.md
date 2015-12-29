@@ -1,0 +1,30 @@
+---
+layout: post
+title: Putting Users First
+date: 2014-10-13 14:05
+author: maraujo
+comments: true
+categories: [Perspectives]
+---
+For many years, IT organizations invested millions of dollars in enterprise systems and databases (like SAP, Oracle, SQL Server and recently salesforce.com) and created an overwhelming level of enterprise IT complexity. Much of this was built from the bottom up - designing and selecting the right “back-end” servers, databases and “front-end” systems.<!--more-->
+
+How about the user? Where did the user fit in all this? Well, users were doomed to change their ways in order to fit the newly implemented systems. They had to go through a painful learning process that would teach them to muddle through several different systems just to accomplish simple tasks.
+
+How common are IT project failures? One of the most dramatic examples of how user-centered IT has become a critical issue is <a title="SAP Implementation" href="http://blogs.wsj.com/cio/2013/12/11/avons-failed-sap-implementation-reflects-rise-of-usability/" target="_blank">Avon’s $125 million failed implementation of SAP</a>.
+
+<a href="https://www.outsystems.com/blog/wp-content/uploads/2014/10/graph1.png" rel="attachment wp-att-2010"><img class="alignright size-medium wp-image-2010" src="https://www.outsystems.com/blog/wp-content/uploads/2014/10/graph1-300x171.png" alt="graph" width="300" height="171" /></a>You got the point right? Systems exist to support users and business, not to hinder productivity and slowdown business. This has been a mantra at OutSystems ever since the company was founded. We want to enable IT to deliver top-notch user experiences fast and, most importantly, keep them fresh by changing them even faster.
+Early this year, a global CIO round table discussed <a title="Delivering innovative systems" href="http://www.outsystems.com/nextstep/2014/keynote/" target="_blank">leveraging Mobile, Cloud and Big Data to deliver innovative systems</a> that help companies drive more revenue, increase productivity, and are loved by their users. In enterprise mobility, the user experience is even more important for user adoption - which is paramount. So last month we published <a title="Why IT Struggles with Mobility" href="http://www.outsystems.com/enterprise-mobility/">Why IT Struggles With Mobility</a>, an ebook that further expands on the compounding challenges of mobility.
+
+<a title="Liberty Insurance" href="http://www.outsystems.com/case-studies/liberty/insurance-management-system/">Liberty Insurance</a>, an OutSystems customer, committed to build an entire IT governance model completely focused on the end-user, constantly monitoring feedback and taking changes to production in less than two days.
+
+The good news is that industry leaders, such as Box, Zendesk, Jive, Marketo, Okta, and Skyhigh Networks, have joined forces to drive a new movement called User-Centric IT (UCIT) - putting users first and giving teams tools and information when, where, and how they want it. User-Centric IT is about putting users first, and we are proud to be a member of this movement.
+
+The <strong>five core principles</strong> of the User-Centric IT movement are:
+<ol>
+	<li>User-Centric IT serves business by empowering people.</li>
+	<li>User-Centric IT adapts to the way people work, not the other way around.</li>
+	<li>People, information and knowledge must connect in real time.</li>
+	<li>Mobility is a work-style preference, not a device.</li>
+	<li>Security should be inherent and transparent to the user experience.</li>
+</ol>
+We encourage you to learn more about the <a title="User-Centric IT" href="http://usercentricit.com/" target="_blank">User-Centric IT</a> movement and how OutSystems Platform, starting with the user in mind, can help you transform your users’ mobile and web experience.

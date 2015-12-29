@@ -1,0 +1,25 @@
+---
+layout: post
+title: NextStep '12 Wrap-up
+date: 2012-05-21 12:38
+author: mozzello
+comments: true
+categories: [Nextstep, NextStep 2012, Nextstep presentations, Perspectives]
+---
+<p align="left">NextStep 2012 is a wrap! Everyone agreed that this year's event was truly a NEW NextStep. If you were able to join us, you know you were part of something special. For those who could not make it, here are the 2 keys that made this a <b>NEW</b> NextStep:</p>
+<!--more-->
+<ul>
+	<li><span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img class="mt-image-right" style="float: right; margin: 0 0 20px 20px;" alt="NextStep 2012" src="https://www.outsystems.com/blog/wp-content/uploads/2012/05/venue-blog2.png" width="227" height="302" /></span><b><b></b>New Venue</b> - This year the event was located in Lisbon's Expo area, a cool, modern part of town. Everyone loved the change and it really appealed to our Internationals guests who enjoyed the proximity to the airport, great restaurants and attractions all within walking distance. The new NextStep had the largest number of international visitors ever and that really gave the event a global feel.</li>
+</ul>
+&nbsp;
+<ul>
+	<li><b>Educational Focus</b> - This year we really focused on providing high value content, no matter what your role. To accomplish our goal we called on our experts across different areas including the OutSystems R&amp;D team, Solution Delivery experts, and partner specialists. For the first time we had 3 different educational tracks. Power to the Business, Power to the Platform, and Power to the 'Ility'. For most, the hardest choice was which session to attend... but don't worry if you missed any session, we got you covered! Find all conference materials here or ask us a question and we will be glad to help.</li>
+</ul>
+&nbsp;
+
+<p style="padding-bottom:20px;">The NEW NextStep was truly a great gathering of the OutSystems community, with all the participants saying that they would recommend the event to a friend. Check the video below to witness some of the highlights of NextStep, or go to the <a href="http://www.outsystems.com/nextstep/">NextStep website</a> to get the presentations, photos, and more.</p>
+<div align="center">
+
+<iframe src="http://www.youtube.com/embed/jMUt8UZKlyY?rel=0" height="315" width="560" allowfullscreen="" frameborder="0"></iframe>
+
+</div>

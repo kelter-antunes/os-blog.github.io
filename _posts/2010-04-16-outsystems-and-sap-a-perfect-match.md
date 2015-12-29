@@ -1,0 +1,16 @@
+---
+layout: post
+title: OutSystems and SAP - a Perfect Match?
+date: 2010-04-16 12:45
+author: cga
+comments: true
+categories: [Dev Zone, outsystems sap bapi financials scm hr hcm reditus roff solutions factory]
+---
+<div>Hugo Matthioli of Reditus spoke this afternoon on OutSystems &amp; SAP complementary solutions. He discussed the strengths of combining the two products and methodologies and how to combine them to extend base ERP functionality into the Intranet of RPA - Rui Pena, Arnaut &amp; Associados, a leading Portuguese law firm. Reditus orchestrates the delivery through its custom development and SAP implementation businesses, offering powerful combined solutions to its customers.<!--more--></div>
+<div>First, he explained the challenge for RPA and his team: to deliver a rich intranet application to support document management and enterprise workflows in 4 months, by extending the existing SAP Financials, SCM and Human Capital Management implementation.</div>
+<img class="mt-image-right" style="float: right; margin: 20px 0 20px 20px;" alt="hugomatthioli2.jpg" src="https://www.outsystems.com/blog/wp-content/uploads/2010/04/hugomatthioli22.jpg" width="252" height="320" />Next, Hugo explained how the solution was architected to provide the required degree of flexibility: the Agile Platform supporting the Portal layer, providing all user services integrated with SAP via Web Services. At the end, the solution integrated 13 SAP web services to support 17 custom business processes.
+<div>Additionally, Hugo explained how to integrate an custom development project using the Agile Platform with an SAP deployment and customization project: by embracing two tracks of development with OutSystems agile methods and SAP's ASAP methodology, iterating the user's interface and stand-alone modules using OutSystems, and focusing later down the road on the SAP integration. That gives the team the required time to bring together the user interface with data integration.</div>
+<div>Hugo also introduced Carlos Coelho, CFO at RPA who explained why his business required a tailored solution: custom requirements, enterprise-wide workflows and better management of business performance. "In 4 months we did more than we did in 2 years before having OutSystems and SAP!", he concluded.</div>
+<div></div>
+<div>Summing up his views, Hugo concluded that OutSystems and SAP have a perfect match when it comes to deploy a new business process, or extend a new one that requires leveraging existing SAP data or process into richer and integrated portals.</div>
+<div>Want to learn more? Let us know or ask Hugo!</div>

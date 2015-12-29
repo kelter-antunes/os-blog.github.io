@@ -1,0 +1,93 @@
+---
+layout: post
+title: Evergreen Applications (Part 2) - Increasing application ROI through evolutionary maintenance using Agile methodologies
+date: 2009-03-19 17:47
+author: paulorosado
+comments: true
+categories: [agile sprints, application maintenance, bug fixing, change requests, Dev Zone, evolutionary maintenance]
+---
+<p style="margin-top: 0pt; margin-bottom: 1em;">Evergreen applications are business applications that continue to evolve as the business changes and so provide constant value, year after year. At OutSystems virtually any solution that is deployed using Agile methods is required to stay evergreen and subject to a continuous Agile Evolutionary Maintenance process. <a href="https://www.outsystems.com/blog/2009/02/evergreen-applications-part-1---increasing-application-roi-through-evolutionary-maintenance-using-ag.html">Part 1 of this article</a> explored the main phases of the Agile Evolutionary Maintenance process and defined the three key project types that are most common.</p>
+<p style="margin-top: 0pt;  margin-bottom: 1em;">In Part 2, I will shift my attention to defining the different types of backlog items that typically make up an evolutionary maintenance sprint. In addition, I will define some key technology challenges you must overcome in order to deliver on the promise of evergreen applications. Finally, I will describe how OutSystems can help in this process.<!--more--></p>
+<p style="margin-top: 1.3em; font-size: 18px; margin-bottom: 0.563em; color: #cc0000;">Backlog Items of Evolutionary Maintenance</p>
+<p style="margin-top: 0pt; margin-bottom: 1em;">The typical backlog items that are part of an evolutionary maintenance release include:</p>
+
+<ol style="">
+	<li><strong>Defects</strong> - fixes to application defects and business processes that are not correct for real life conditions, and therefore impact daily business operations;</li>
+	<li><strong>Application inefficiencies </strong>- over time, applications composed of multiple services will experiences changes in performance profiles due to changing business use and shifting service load. It's key to identify and overcome performance inefficiencies such as:
+<ul>
+	<li>Slow Web pages;</li>
+	<li>Slow database access;</li>
+	<li>Integration bottlenecks in distributed services architecture.</li>
+</ul>
+</li>
+	<li><strong>Usability improvements </strong>- overcome annoyances that impact user efficiency or adoption;</li>
+	<li><strong>Change Management</strong> - Incrementally deliver new valuable features. Either selected from ones left out of previous releases or newly identified during the use of the live application.</li>
+</ol>
+&nbsp;
+
+<span style="font-size: medium;"><strong>Challenges of Implementing Agile Evolutionary Maintenance</strong></span>
+<p style="margin-top: 0pt; margin-bottom: 1em;">To achieve an effective Evolutionary Maintenance process it is imperative that the maintenance team has the right tools. They need access to development and project management tools which:</p>
+
+<ul style="">
+	<li>Allow them to assess application performance;</li>
+	<li>Assist with capture and prioritization of change requests;</li>
+	<li>Streamline the change, test and deployment process.</li>
+</ul>
+<p style="margin-top: 0pt; margin-bottom: 1em;">Without the proper application delivery and management environment your maintenance teams will not be able to deliver the agility needed to keep your applications evergreen. Let's explore these key challenges in a little more detail:</p>
+
+<ul style="">
+	<li><strong style="">Automated instrumentation of the application that doesn't require expensive operational support, extra coding, etc.</strong><span style=""> This is important in order to understand where to invest in code optimization when dealing with application performance issues. Areas on which to focus attention:</span>
+<ul>
+	<li>Identification of the application web pages visited, their rendering time and isolation of slow screens that should be reengineered;</li>
+	<li>Identification of slow queries that may require optimization;</li>
+	<li>Performance assessment of the web services and APIs being used by the application to provide access to external systems;</li>
+	<li>Review of application error logs;</li>
+	<li>Centralized analysis of all application feedback including performance logs, audit logs, etc.</li>
+</ul>
+</li>
+</ul>
+<ul>
+	<li><strong>Enhanced capabilities for end-user collaboration to gather feedback on application usage. </strong>This capability is critical in order to address incorrect application behavior and improve usability and adoption. Areas on which to focus attention:
+<ul>
+	<li>Provide the end-user with the means to give feedback on the application behavior. This process should be intuitive for users and result in unambiguous feedback for the maintenance team;</li>
+	<li>Streamline feedback management to effectively classify, prioritize and transform the user feedback into manageable backlog items.</li>
+</ul>
+</li>
+</ul>
+<ul>
+	<li><strong>The availability of enabling technology which supports rapid change and boosts delivery efficiency. </strong>Areas on which to focus attention:
+<ul>
+	<li>Provide adequate application documentation when planning for evergreen applications. This is because the person performing maintenance tasks is typically not the same as the one who developed the original application; therefore it is critically important that the application's structure and logic is easy to understand;</li>
+	<li>The development tools must make it easy to respond to change by supporting the change process. In our experience this includes tools that automate impact analysis and isolate change , which in turn, minimize testing and improve overall development team productivity;</li>
+	<li>The application configuration and build environment must be automated to remove errors and support a rapid deployment of changes to test/production environments.</li>
+</ul>
+</li>
+</ul>
+&nbsp;
+
+<span style="font-size: medium;"><strong>How OutSystems Helps with Going Evergreen</strong></span>
+<p style="margin-top: 0pt; margin-bottom: 1em;"><a href="http://www.outsystems.com/goto/Agile-Platform">OutSystems' Agile Platform</a> and project management tools provide the technology needed to shorten delivery cycles, increase software development agility, project predictability, responsiveness to business change and overall development productivity. For Evolutionary Maintenance teams, OutSystems technology addresses the key challenges faced by maintenance teams when going Evergreen:</p>
+
+<ul>
+	<li>The Agile Platform automates the logic required to collect performance data and audit information. In addition, it supports the automatic logging required to address performance tuning, including monitoring third party integration done via the platforms Integration Studio toolkit;</li>
+</ul>
+<ul>
+	<li>The Agile Platform's Service Center tool provides the necessary functionality to analyze performance data and audit logs collected from the application during run-time;</li>
+</ul>
+<ul>
+	<li>The <a href="http://www.outsystems.com/goto/ECT-Demo">Embedded Change Technology (ECT)</a> and the <a href="http://www.outsystems.com/goto/Agile-Network">Agile Network's</a> Issue Management tool ensure end-user collaboration :
+<ul>
+	<li>ECT provides an easy way to collect application feedback from testers, end users, etc. ECT provides meaningful information based on feedback directly from the application screen, and all feedback is automatically registered and stored in the Issues Management tool for the project;</li>
+	<li>The Issue Management tool handles end-to-end issue management, from capturing user feedback, to issue classification and prioritization.Issues can then be included in the maintenance release backlog for delivery.</li>
+</ul>
+</li>
+</ul>
+<ul>
+	<li>The Agile Platform's TrueChange™ engine supports automated impact analysis and self-healing. This streamlines the change process and assures that quality applications are delivered. Self-healing is unique to the Agile Platform and is made possible by the fact that development is done in a model-based environment. This allows the platform to understand and manage all changes across all the development artifacts. For example, a simple change request to "add a new field to a Web page form that is only visible to a Sales Manager" might require changes to the User Interface, Data Model, external Service APIs, Access Control rules and Business Rules. With its full reference checking and self-healing capabilities, TrueChange™ safely rebuilds the sections of the application that can be automatically inferred, and provides the Business Developer with impact analysis on any manual changes he or she may still need to make to fully address the requirement;</li>
+</ul>
+<ul>
+	<li>The Agile Platform's 1-Click Publishing streamlines the configuration management, build and deployment process - effectively reducing common build errors and the typical build and deploy time to minutes.</li>
+</ul>
+&nbsp;
+<p style="margin-top: 0pt; margin-bottom: 1em;">An Evolutionary approach to Maintenance is key to keeping your applications evergreen and delivering the best business ROI. As you expand your teams' Agile processes, you can apply the Evolutionary Maintenance phases defined in <a href="https://www.outsystems.com/blog/2009/02/evergreen-applications-part-1---increasing-application-roi-through-evolutionary-maintenance-using-ag.html">Part 1 of this article</a> across a variety of different project types and architectures. To be successful you will need to overcome the technology challenges described in Part 2.</p>
+<p style="margin-top: 0pt; margin-bottom: 1em;">Be sure to review how OutSystems can help for your web business applications!</p>

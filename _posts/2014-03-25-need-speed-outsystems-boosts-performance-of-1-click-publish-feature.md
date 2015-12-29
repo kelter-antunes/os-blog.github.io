@@ -1,0 +1,54 @@
+---
+layout: post
+title: Need Speed? OutSystems Boosts Performance of 1-Click Publish Feature
+date: 2014-03-25 14:26
+author: miguelrebelo
+comments: true
+categories: [1-click publish, Dev Zone, outsystems platform]
+---
+The process of continuous iteration as an OutSystems developer requires quick change and test cycles. The 1-Click Publish (1CP) operation is a core part of this process, and one that is used dozens or hundreds of times per day.
+
+Whenever you need to see the effect of changes you have done to an application, be it UI, Business Logic, Data Models, Processes, or Integrations, the OutSystems Platform lets you do that with just one click. <!--more-->Getting from your changes done in the model, to a fully deployed application in the cloud or across your on-premises server farm is a heavy lifting job - so having this all automated is a big help.
+
+This critical part of our technology receives constant tuning to increase reliance and performance. However, in version 8.0.1 we’ve taken a leap that introduces a huge increase in performance - not only for the 1-Click Publish process, but also for a lot of the capabilities that rely on it.
+<h4 style="padding-top: 15px; padding-bottom: 10px;">Main stages of 1CP process</h4>
+As you might have noticed, when publishing an application, the 1CP process is composed of 3 main steps: Upload, Compile, and Deploy.
+
+<a href="https://www.outsystems.com/blog/wp-content/uploads/2014/03/1-click-publish.png" rel="attachment wp-att-1834"><img class="aligncenter size-full wp-image-1834" alt="1-click-publish" src="https://www.outsystems.com/blog/wp-content/uploads/2014/03/1-click-publish.png" width="564" height="110" /></a>
+<h5>Stage 1: Upload</h5>
+Uploading begins by checking the differences between the version of an application you want to upload and the version of the application already published.If conflicts are found, the Platform allows you to visually merge them, ensuring a continuously integrated environment that is always running the latest code. Next, all references to other modules and extensions are validated and can be refreshed if not up to date. This ensures that updated and consistent versions of all dependencies are being used. Finally, your latest module is uploaded as the new version in the version control system - critical if you ever need to rollback to a previous version.
+<h5>Stage 2: Compile</h5>
+Compiling loads the new version of your module from the version control system to memory, performs some static analysis over the model to determine possible optimizations, and uses the OutSystems compiler to generate performant Java or C# code, as well as all the database migration/update scripts required to bring your application up to date. Next, the appropriate Java or C# native compiler is called to compile the generated code and obtain the binary files that will be included in your web application.
+<h5>Stage 3: Deploy</h5>
+This is the final step of the 1CP process, and it is responsible for copying the files generated in the previous step to the front-end servers, updating the database model to reflect your changes, and finally deploying your web application to the application server.
+<h4 style="padding-top: 15px; padding-bottom: 10px;">1CP performance improvements</h4>
+We constantly gather feedback from our customers, and what they told us was that even though the 1CP process is a huge help in their develop and test cycles, they felt their productivity could be improved further. Applications change at such a high rate, that developers use the 1CP operation several dozen times a day.
+
+Increasing productivity was something that would benefit the entire developer community. So, deciding to dig deeper, we set out to identify how we could push the performance of this process to an even higher level.
+
+To make sure we were working towards the right solution, we needed to know everything about the problem. We began collecting metrics about the 1CP process in real usage scenarios. By using this data, we were able to make informed decisions about which stages of the process should be optimized first. This ensured that whatever we optimized could be measured against the previous state and have a real impact for our users.
+<h5>The real insight</h5>
+What we found as a result of our analysis was that even with multiple optimizations already in place, it was the second stage of the 1CP process that took the greatest amount of time to complete. If we were to make any increase in productivity, it would have to happen during compiling.
+<a href="https://www.outsystems.com/blog/wp-content/uploads/2014/03/real-insight.png" rel="attachment wp-att-1835"><img class="aligncenter size-full wp-image-1835" alt="real-insight" src="https://www.outsystems.com/blog/wp-content/uploads/2014/03/real-insight.png" width="316" height="180" /></a>
+
+To ensure that 1CP processes don’t interfere with one another, the code generation step was running in complete isolation, which means that no data was shared between different 1CPs. This level of isolation was the reason compiling took as long as it did.
+
+While isolation is important, compiling in between 1CPs required reloading a lot of data and dependencies not directly linked to the 1CP.
+
+In the tradeoff between isolation and performance, we decided to keep the isolation where it mattered to keep the 1CP process robust, but to increase performance by sharing things like database connections and platform settings across different processes.
+
+In version 8.0.1 we’ve refactored the OutSystems compiler to greatly reduce the amount of time required to generate code, achieving optimizations that have a great impact on the entire 1-click publish process. <strong>Now, going from application change to application running is up to 60% faster!</strong>
+
+<a href="https://www.outsystems.com/blog/wp-content/uploads/2014/03/real-insight2.png" rel="attachment wp-att-1836"><img class="aligncenter size-full wp-image-1836" alt="real-insight2" src="https://www.outsystems.com/blog/wp-content/uploads/2014/03/real-insight2.png" width="428" height="178" /></a>
+
+&nbsp;
+
+<strong>What does this mean to you? Well, a few statistics from our research:</strong>
+<ul>
+	<li>An OutSystems developer publishes 33 times per day on average</li>
+	<li>The average 1CP took 95 seconds</li>
+	<li>This means that one developer spent an average of 45 mins per day publishing</li>
+	<li>Sixty percent performance gain here gives you almost 30 minutes back in your day</li>
+	<li>For organizations, it means that for every 5 developers you get an entire day back every week!</li>
+</ul>
+We will continue to push efficiency in every part of the Platform to bring you more time to enjoy the art of developing and innovating. Have a suggestion? We would love to hear from you. See you in the comments…

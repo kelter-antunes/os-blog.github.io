@@ -1,0 +1,36 @@
+---
+layout: post
+title: Agile Development - A Juggling Act?
+date: 2009-10-13 11:56
+author: mwj
+comments: true
+categories: [agile development, agile PM, Ball Point Game, Dev Zone, outsystems, SCRUM, team building]
+---
+We have recently started playing the "Ball Point Game" in some of our informal Agile learning sessions. This is a game played by some scrum trainers. The basic objective of the game is to get as many balls through the team as possible within two minutes. Each ball must be touched at least once by every team member and must end with the same person with whom it began. After two minutes the team is allowed an additional minute to discuss the process and how it could be improved. It is recommended that the game be played a total of five times or sprints. You can learn more about the game in this <a href="http://kanemar.com/2008/04/07/scrum-trainers-gathering-24-the-ball-point-game/">Scrum Trainers blog post</a>. <!--more-->
+
+<img class="mt-image-right" style="margin: 0pt 0pt 20px 20px; float: right;" alt="ball point game.jpg" src="https://www.outsystems.com/blog/wp-content/uploads/2009/10/ball%20point%20game1.jpg" width="165" height="163" />
+
+When I was first introduced to the game I wasn't quite sure what Agile concepts I would learn about.  Was this about the importance of <i>retrospectives</i>; <i>scrum meetings and communication</i> or <i>scrum of scrums</i>?  What I learned were some interesting aspects of all these topics plus, what I think was the real message from the exercise - with <i>experience</i> comes speed and quality, and experience can be injected into the team when done at the right time!
+
+So for those who don't know this game it is very simple and quite fun. A good team building exercise even if you are not practicing Agile.
+
+<b><i>Watch this video now </i>and my findings below will make more sense.</b>
+<div align="center"><object width="480" height="295" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/d4-El7gJuZE&amp;hl=en&amp;fs=1&amp;rel=0" /><param name="allowfullscreen" value="true" /><embed width="480" height="295" type="application/x-shockwave-flash" src="http://www.youtube.com/v/d4-El7gJuZE&amp;hl=en&amp;fs=1&amp;rel=0" allowFullScreen="true" allowscriptaccess="always" allowfullscreen="true" /></object></div>
+<b>Mike's findings from the Ball Point Game</b>
+As you can see, the game was fun.  If you did not notice the video was from two different sessions; one session was in Lisbon, Portugal and the other in the 'sunny' England.  (I know, hard to believe it was sunny in the UK!)  Let's reflect on the four topics I mentioned above:
+
+<b>1. Retrospectives are really key for the delivery team to be able to adjust and improve.</b>  They also give you a point in time to measure your effectiveness as a team.  Important if you are interested in improving!
+
+<b>2. <i>S</i></b><b>crum meetings and communication are part of the secret sauce for agile.</b><i> </i> It was very evident in the video.  You saw the teams discuss their performance, brainstorm ways to improve and then implement the improvements.  Of course this concept extends beyond the 'ball passers' to the whole Agile team including the business users, testers, etc.  If you don't have regular interaction across the whole team the Agile process breaks down very quickly.
+
+<b>3. For large teams the concept of "Scrum of Scrums" is critical.  </b>Our first group was very large, there were four separate delivery teams and their Scrum Masters met to discuss the 'project' and then collaborated with the smaller teams.  While I agree this is important, it begs the question - management in Agile projects?  Of course if you read this blog regularly you already know that for Enterprise agile to be successful you need some good project management!
+
+<b>4. Experience is critical for success.</b><i> </i> If you go back and look at the video you might notice that before the last sprint the teams get a nudge from an experienced player.  In this game's case the nudge is about 'maximizing' resources - and this meant passing two balls at once.  This would never have been considered in the earlier sprints but with a little experience to direct the teams they easily adopted the concept and really improved their performance.  A bit of a warning: a good agile coach will let their team build on their skills and not introduce a 'nudge' too early.  I suspect that if we had given the team the "two hands" advice after the first sprint it might have proven less beneficial as the teams had not progressed enough in their working approach to successfully implement this advanced concept.  Food for thought.
+
+So, both groups improved their efficiency many times over from the first sprint.  In addition, if you would have asked them if they thought they could double their throughput after each sprint they would have been skeptical at best.
+
+And the final lesson:<b> Keep an open mind, learn from experience, and be willing to fail - just do it fast and adjust!  </b>
+
+Let me know if you have played the game and what your take-aways were.
+
+You can follow me on Twitter <a href="http://twitter.com/miwjones">here</a>.

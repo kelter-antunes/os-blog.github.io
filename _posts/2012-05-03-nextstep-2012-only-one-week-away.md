@@ -1,0 +1,27 @@
+---
+layout: post
+title: NextStep 2012 - Only one week away!
+date: 2012-05-03 13:31
+author: mozzello
+comments: true
+categories: [Events, Nextstep, NextStep 2012, Perspectives]
+---
+<p>If you haven't yet heard about <a href="https://www.outsystems.com/nextstep/">NextStep</a>, I want to share a bit more info about what we have planned for 2012! This year the event will take place on May 10 and 11 and we're expecting over 400 participants in Lisbon during next week, ready to learn, network and have some fun. To host the event we picked a new, beautiful and cool location - the Lisbon Congress Center in Parque das Nações, right on the waterfront.</p>
+<!--more-->
+
+<img class="mt-image-right alignright" style="margin: 0px 0px 20px 20px;" alt="OutSystems_ConviteNextStep2012" src="https://www.outsystems.com/blog/wp-content/uploads/2012/05/OutSystems_ConviteNextStep2012-12.jpg" width="320" height="167" />
+<p>Our main theme for NextStep 2012 is "<b>Simplicity</b>"! This will be our motto throughout the 2 days of the event. Come and learn about streamlining complex IT processes while delivering highly usable 'great' applications. Many times simplicity is undervalued, underestimated, or simply ignored and the result is a loss of efficiency, increased costs, and damaged reputation. Achieving simplicity is a lofty challenge that expands beyond IT to the entire business.</p>
+<p>Our keynote speaker, <b>Dave Thomas</b>, will also explore the world of Information Technology with a look to the future and highlight the pitfalls of complexity along the journey. Dave is an industry icon, and I'm sure you'll love his presentation.</p>
+<p>To finish the first day, <a href="http://www.outsystems.com/company/management-team/">Paulo Rosado</a> will go on stage with <a href="http://www.outsystems.com/company/management-team/">Mike Jones</a>, and together they'll launch the much anticipated and awesome new version of <a href="http://www.outsystems.com/">OutSystems</a>' flagship product, the <b>Agile Platform 7.0</b>!</p>
+
+<p>
+
+For day two, we have 3 power tracks filled with great presentations. Two of the tracks are devoted to our growing technical community, and are dedicated to the <a href="http://www.outsystems.com/agile-platform/">Agile Platform</a>.
+<ol>
+	<li><b>Power to the 'ility'</b>, a track dedicated to maintainability, scalability and all things to do with a sound design and architecture.</li>
+	<li><b>Power to the Platform</b>, a track focused on getting the most out of the Agile Platform, from cutting edge tips to sessions on simplifying devops.</li>
+</ol>
+</p>
+<p>The third track,<b> Power to the Business</b> is dedicated to the close relationship between IT and the business. This is a don't miss track if you want to learn how to deal with the latest IT trends, understand the 10 agile practices that are key for success, and attend inspirational sessions on mobile and usability!</p>
+<p>This year we'll close the event with a new and fun session entitled... you guessed! - <b>Power to Simplicity!</b> In this session we'll make sure you don't miss anything from each of the tracks, we'll recognize key community members, and we'll also reward a lucky participant with a special prize. Be sure not to miss it!</p>
+<p>Check the <a href="https://www.outsystems.com/nextstep/agenda/">full agenda</a> and <a href="https://www.outsystems.com/nextstep/register/">register online</a> at the NextStep website. Be sure to <b>register quickly</b>, we're almost out of seats!I'll see you there!</p>

@@ -1,0 +1,30 @@
+---
+layout: post
+title: Do's & Don'ts of Legacy Modernization Q.2
+date: 2010-03-04 15:17
+author: mozzello
+comments: true
+categories: [Agile Platform, CBDi, Dev Zone, Lawrence Wilkes, legacy modernization, model-based, outsystems]
+---
+As a follow-up to our <a href="https://www.outsystems.com/blog/aboutagility/2010/03/dos-donts-of-legacy-modernization.html">previous post</a>; here is the second interview question from our conversation with <a href="http://lwsoa.blogspot.com/">Lawrence Wilkes</a>, Director and Principal Consultant
+with <a href="http://www.everware-cbdi.com/">Everware-CBDi</a>, on how IT departments are addressing their legacy systems:
+
+<b>Q.2  Is there a role for model-based tools like the <a href="http://www.outsystems.com/agile-platform">Agile Platform</a> in legacy modernization?<!--more--> </b>
+
+<b>LW:</b> Although a large part of the functionality may be based on those that already exist in legacy systems, there is still a need to design and assemble the new solution that is typically focused on supporting a new business process, channel or product.  This requires a layer of new development that 'wraps' the legacy systems, and the capabilities created out of the legacy still need to be integrated into that new solution. For example, capabilities in the legacy systems might become service providers to the new solutions.
+
+At the same time, new capabilities are likely to be required since legacy modernization usually entails more than the need to re-skin, or re-process the legacy system. There will be new business requirements that the legacy system didn't address.  Hence, model-based tools can be very useful in terms of:
+
+<strong>a</strong>. Designing and implementing the new process and UI layers
+<strong>b</strong>. Creating the services that wrap the legacy capabilities
+<strong>c</strong>. Creating both new business functionality, and new components &amp; services to support them
+<strong>d</strong>. And finally, assembling it all together into the new solution.
+
+<b><i style="color: #ab0404;">Have you used a model-based tool to help with your legacy? What have been the benefits?</i> </b>
+
+In the next and final question, Lawrence offers the top three mistakes people make with their legacy modernization efforts.
+
+&nbsp;
+
+<span style="font-size: 0.8em;">Lawrence Wilkes is a Director and Principal Consultant at Everware-CBDI.Lawrence is a frequent speaker, author and consultant on best practice in SOA, Application Modernization and Enterprise Architecture. Via CBDI Forum, the Everware-CBDI research capability and portal, Lawrence has led the development of the CBDI-SAE methodology and supporting Knowledgebase, which is used by both end-user organizations and system integrators around the world. Lawrence has an extensive background both within end-user and vendor organizations having worked both in the business and IT side, which brings particular insight into business/IT convergence.
+</span>

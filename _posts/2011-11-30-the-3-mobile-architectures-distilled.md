@@ -1,0 +1,44 @@
+---
+layout: post
+title: The 3 Mobile Architectures Distilled
+date: 2011-11-30 13:43
+author: Rodrigo
+comments: true
+categories: [agile development, Dev Zone, mobile, mobile development, mobile web application]
+---
+I don't know about you, but I am getting asked more and more to deliver some type of application that has a mobile front end. Of course mobile is one of the big trends nowadays, and there are good reasons for it. In a recent Forrester survey, 75% of decision makers claim that <b>deploying mobile apps has increased their workforce productivity</b>.
+
+The question I seem to get asked often is, how should you implement mobile? <!--more-->
+
+<img class="mt-image-right" style="float: right; margin: 0 0 20px 20px;" alt="Mobile" src="https://www.outsystems.com/blog/wp-content/uploads/2011/11/iphone-blog2.png" width="148" height="311" />
+
+To keep it simple, I have found that there are three implementation strategies you can choose from to build your mobile app:
+<ol style="font-size: 1em;">
+	<li>Native Applications</li>
+	<li>Mobile Web Applications</li>
+	<li>Hybrid</li>
+</ol>
+<div></div>
+<div style="padding-top:20px;"><b style="color: #ab0404;">Native Applications</b>
+These are apps built for a particular device and operating system. They're cool because you can build extremely rich and interactive apps that take advantage of all of the phone's features. The problem is they're hard to build, and you need to have different code (and sometimes different dev teams) for each different device - a maintenance nightmare...</div>
+<div></div>
+<div style="padding-top:20px;"><b style="color: #ab0404;">Mobile Web Applications</b>
+These are applications that run on the device's browser. Using standards like HTML5 and CSS3, they provide a very good level of interactivity that is getting closer and closer to what you get from native. They run on a web server, instead of running on the device, which gives the possibility to deploy the same app for multiple devices and greatly simplifies application maintenance. The <a href="http://apps.ft.com/ftwebapp/">Financial Times</a> is an example of a major player that has decided to move from native to Mobile Web.</div>
+<div></div>
+<div style="padding-top:20px;"><b style="color: #ab0404;">Hybrid Applications</b>
+These are a mix of Native and Mobile Web. A thin native shell is built around a browser, where the bulk of the application runs. The thin shell allows the application to access phone features that are not available in HTML5 (yet!). It also meets the requirements of being native in order to distribute the application on the appstore. On the maintenance front, well you guessed it a bit of a mix between the native and mobile web. Major players such as Facebook have chosen this route by building their own "wrapper" and then executing all the site content as a web app in that shell.</div>
+<div></div>
+<div style="padding-top:20px;"><b style="color: #ab0404;">So, which to pick?</b></div>
+<div>I believe the <b>best choice is Mobile Web Applications</b>. Of course the decision depends on the context, but most of the time Mobile Web is the way to go - particularly if you're considering Enterprise Mobile Applications. Here's why:
+<ol>
+	<li><b>Use what you know</b>: Reuse all the knowledge you have from web development. There are still new things to learn, but it beats learning a whole new system.</li>
+	<li><b>No approval process</b>: Skip all the steps necessary to have your app on the appstore. Just publish to your servers and you're done.</li>
+	<li><b>Auto-upgrade</b>: All your users will be using the latest version of your app. No need to manually upgrade the app on their devices.</li>
+	<li><b>Ready for a lot of devices</b>: Using standard technologies like HTML5, your app will be ready to run in a lot of devices in one go.</li>
+	<li><b>Be Agile!</b> By skipping the appstore approval process and by being able to release for multiple devices at once, you can have truly short iterations and release new features early to your users.</li>
+</ol>
+<div></div>
+</div>
+<div><a href="http://www.outsystems.com/company/events/web/mobile-strategy-webinar/">Click here</a> to learn more about this topic by watching the "Mobile has arrived so start building those apps!" webinar. Happy development!
+&nbsp;
+</div>

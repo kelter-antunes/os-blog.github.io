@@ -1,0 +1,29 @@
+---
+layout: post
+title: App Dev in the Cloud - Different Strokes for Different Folks
+date: 2013-12-26 09:32
+author: dholmes
+comments: true
+categories: [high productivity platforms, PaaS, paas platforms, Perspectives]
+---
+SaaS. PaaS. IaaS. aPaaS. xPaaS. BEaaS. XMaaS. Ok, so I made the last one up. But the other "as a service" acronyms are alive and well, and this is the short list!<!--more-->
+
+By now, we are all very familiar with <strong>software as a service (SaaS)</strong> because we use it every day, whether it is <a href="http://salesforce.com/" target="_blank">salesforce.com</a> for CRM or sales force management or gmail for email and calendaring. We sign-up and go, often times without the help, intervention or even the permission of our IT departments.
+
+Now, <strong>platform as a service ( PaaS)</strong> is about to take center stage. According to a <a href="http://www.forbes.com/sites/louiscolumbus/2013/08/20/451-research-platform-as-a-service-paas-fastest-growing-area-of-cloud-computing/" target="_blank">451 Research report</a>, PaaS is poised to be the fastest growing segment of cloud computing and will attain a 41% CAGR through 2016, generating 24% of total cloud revenues.
+
+But what is a PaaS? According to the source of all truth ; )<a href="http://en.wikipedia.org/wiki/Platform_as_a_service" target="_blank"> Wikipedia</a>, "platform as a service is a category of cloud computing services that provides a computing platform and a solution stack as a service. It is a service model of cloud computing where the consumer creates the software using tools and/or libraries from the provider. The consumer also controls software deployment and configuration settings. The provider provides the networks, servers, storage, and other services that are required to host the consumer's application."
+
+If you talk to the leading industry analysts, PaaS vendors fall into two broad categories. Those where coders go to write code (just writing it in the cloud), and those that provide some high-productivity platform that is designed to make it easier to build applications quickly and by a wider variety of 'developers' (e.g. you don't have to be a Ruby or Java expert.)
+
+"PaaS for coders" (as some call it) delivers all of the infrastructure advantages of cloud computing, but is arguably a less productive development environment, at least initially. As a developer, you still write code in the language of your choice, but also must now learn/understand how to leverage/invoke the new features/capabilities available to you in the cloud (multi-tenancy, elasticity, etc.)
+
+<strong>High-productivity PaaS platforms hold the real promise for game-changing transformation regarding how companies can address the ever-increasing and urgent requests for innovative web and mobile business applications.</strong> Not only can you start <strong>NOW</strong>, I mean literally <strong>NOW</strong> - there is nothing to provision, no security policies to adjust, no IT hurdles to jump over - but you are leveraging a development paradigm specifically designed to get things done fast. Delivering business value in days and weeks as opposed to months or years. A good perspective of high-productivity PaaS and the ROI that can be achieved is discussed in this recent <a href="http://www.outsystems.com/company/events/web/high-productivity-paas/" target="_self">webcast</a> with Forrester and OutSystems partner FICO.
+
+<strong>OutSystems is positioned squarely in the high-productivity PaaS</strong> space (or if you talk to Gartner, aPaaS, for application platform as a service). And while the space is new and emerging the already (and only) dominant player in the space is Force.com, riding off the coattails of the thousands of companies that have adopted salesforce.com. If you are a salesforce.com customer wanting to create some apps that leverage the salesforce.com data model and integrate with your salesforce.com implementation, Force.com would be an obvious consideration. The data and related business logic are already locked into the Force.com cloud, writing some more apps that leverage that data model does not make it less locked-in.
+
+But what if you are expanding the data model? Or writing applications that integrate into systems of record other than salesforce.com. Or if you want the flexibility to leverage your Java or .NET skills Or if you need the portability that a hybrid cloud or on-prem deployment model provides? And what if you need a more sophisticated approach to staging and devops? What if you simply want choice?
+
+<img class="mt-image-left alignleft" style="margin: 0px 20px 20px 0px;" alt="fullreport2.png" src="https://www.outsystems.com/blog/wp-content/uploads/2013/12/fullreport2.png" width="290" height="275" />To answer these and more questions, an <a href="http://www.outsystems.com/offer/paas/bloor-research-report/" target="_self">InComparison paper</a>, authored by Bloor Research practice leader David Norfolk, analyzes these two different high-productivity cloud platform solutions - OutSystems Platform and Force.com.
+
+The comprehensive analysis of the OutSystems Platform and Force.com includes a seven-point comparison of architecture, performance, ease of use, fitness for purpose, stability, support, and value. The paper provides enough information to help IT professionals determine which product matches their needs and requirements. And how does OutSystems fair in this comparison? Spoiler alert: Do you think I would be writing this blog or promoting the paper if we did poorly? Seriously, it is a very detailed review of the pros and cons of both platforms. If you are considering Force.com you really owe it to yourself to review this report. And we are providing it here... as a service ... to you.

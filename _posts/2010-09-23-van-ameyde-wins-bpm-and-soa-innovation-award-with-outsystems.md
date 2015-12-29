@@ -1,0 +1,25 @@
+---
+layout: post
+title: Van Ameyde wins BPM and SOA Innovation Award... with OutSystems!
+date: 2010-09-23 15:03
+author: Rodrigo
+comments: true
+categories: [Agile Platform, Agile Project, Award, BPM, BPT, Customer Story, Perspectives, SOA, Van Ameyde]
+---
+<p>Back in 2008, <a href="http://www.vanameyde.com/">Van Ameyde</a> - an international insurance claims manager from the Netherlands - came to the conclusion it needed to optimize their claims handling process in order to provide customers with the best service levels in the market.<!--more--></p>
+<img class="mt-image-right" style="float: right; margin: 0 0 20px 20px;" alt="Logo_VA_group.png" src="https://www.outsystems.com/blog/wp-content/uploads/2010/09/Logo_VA_group2.png" width="280" height="37" />
+<p>To achieve this goal, a new project was launched to build an entirely new claims handling system called ECHO: European Claims Handling Optimization. Given the complexity and risk of such an ambitious project, it's only natural that Van Ameyde decided to move forward using Agile Methodologies.</p>
+<p style="padding-bottom:20px;">As far as technology goes, it was also clear that using standard software wouldn't cut it. Not only does Van Ameyde have very specific business requirements, it also needed a technology that would allow them to continuously modify and align the ECHO solution with the business. At this point they decided to move forward with the <a href="http://www.outsystems.com/agile-platform/">Agile Platform</a>.</p>
+<div></div>
+<p style="text-align: center;"><iframe title="YouTube video player" src="http://www.youtube.com/embed/YJ2Rw_N0UdA?rel=0" height="345" width="560" allowfullscreen="" frameborder="0"></iframe></p>
+<div></div>
+<p style="padding-top: 20px;">Once the ECHO application went live, the business immediately saw the optimization results in the company's claim processing business. In particular, the business witnessed a <b>30% reduction in the time required to resolve a claim</b>. Not only that, ECHO also quickly became a powerful sales and market expansion tool, allowing Van Ameyde to streamline its ability to <b>open new branches to less than one week</b>, a three to four-fold improvement over the old system.</p>
+<div></div>
+<p>On top of that, and even though the ECHO application supports 16 different countries with unique claim handling requirements, 12 different languages, and 6 different currencies, Van Ameyde now has <b>unprecedented flexibility to customize claims processing</b> for new customers, something that was not possible with the old system.</p>
+<div></div>
+<p>All this hard work and the amazing results achieved by Van Ameyde and the ECHO system were rewarded this week with the 2010 '<a href="http://www.bpmsoa-communityofpractice.org/contest/Van-Ameyde-winner.htm">Business Agility and Process Optimization Enabled by BPM and SOA</a>' case study award, proving that vision together with technology can go a long way!</p>
+<div></div>
+<p><b>Congrats to Van Ameyde and the OutSystems delivery team!</b></p>
+<div></div>
+<div></div>
+&nbsp;
