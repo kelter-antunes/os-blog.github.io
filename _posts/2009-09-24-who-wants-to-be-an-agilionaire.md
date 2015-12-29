@@ -1,0 +1,31 @@
+---
+layout: post
+title: Who wants to be an Agilionaire?
+date: 2009-09-24 18:08
+author: Rodrigo
+comments: true
+categories: [Perspectives]
+---
+OutSystems is all about Agile - and the same applies to our internal R&amp;D team which has been using Agile since 2002. Because we've been using Agile for so long all the principles are pretty much entrenched in our culture - but as the company and the department grew, we started to feel the need to share our Agile knowledge with newcomers to the team.<!--more-->
+
+<img class="mt-image-right" style="margin: 0pt 0pt 20px 20px; float: right;" alt="trophy.jpg" src="https://www.outsystems.com/blog/wp-content/uploads/2009/09/trophy2.jpg" width="200" height="362" />
+
+We considered several ways of doing this. We pondered doing a traditional PowerPoint presentation; we thought about assembling a mandatory reading list; we entertained the idea of adding support on our tools for some of the Agile tenets; and so on...but in the end we decided to organize a contest around Agile to help new team members learn about the methodology the fun way!
+<blockquote><b>Let's play: Who wants to be an Agilionaire?</b></blockquote>
+The idea is simple. Each week a question about Agile was sent to the entire team. The question was accompanied by 4 possibilities, and the contestants had to pick the right one. Everyone could reply to the question within 24 hours, and the winner would be the person with the most correct answers. You can <a href="https://www.outsystems.com/blog/aboutagility/who-wants-to-be-an-agilionaire-questions-answers.html">check the questions &amp; answers here</a>.
+
+This approach worked really well, and had a lot of advantages over any of the other methods - here are a few:
+<ul>
+	<li><b>People were encouraged to look for an answer.</b> This not only ensures people are paying attention to what you're teaching, it also promotes self learning.</li>
+	<li><b>The questions were picked based on the real issues we witnessed internally.</b> This means that people were <a href="http://usablelearning.wordpress.com/2009/09/10/id-webcomic-1-working-with-smes-on-content/">learning what they needed most</a>, not every detail on Agile.</li>
+	<li><b>We sent a small justification of the answer with references to sites, blogs, and books on Agile</b> - and provided more bibliographical references than we could ever hope to transmit on a single presentation.</li>
+	<li><b>We got an idea of people's knowledge on Agile.</b> Now we are aware of how much people know about Agile (and the results were very good, I might add). We also have an idea of the areas where specific people need more help, and will use this knowledge to help them get up to speed.</li>
+	<li><b>Everybody participated.</b> If we had done a Power-Point presentation, I'm sure we wouldn't have had everybody raising their hands.</li>
+	<li><b>It was really cheap!</b> There was no time invested in preparing the presentation or in changing the internal tools. The only work required was preparing the questions and answers.</li>
+	<li><b>It was fun!</b> Everybody liked this idea, and we got great feedback from the team! It was surely more fun than going through a 2 hour presentation on Agile...</li>
+</ul>
+2 months and 8 questions later, we have a <b>WINNER</b>! Miguel Melo had the brilliant result of 7 out of 8 questions right, proving to everyone that he's a <b>true Agilionaire</b>! To celebrate the victory, Miguel was awarded a priceless handmade trophy (built and designed at OutSystems;) an adventure pack to prove he's also Agile out of office; and he gets to show up in the Agility Blog! Congratulations Miguel!
+
+<span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img class="mt-image-center" style="margin: 0pt auto 20px; text-align: center; display: block;" alt="winner.jpg" src="https://www.outsystems.com/blog/wp-content/uploads/2009/09/winner2.jpg" width="520" height="336" /></span>
+<div></div>
+<!--more-->

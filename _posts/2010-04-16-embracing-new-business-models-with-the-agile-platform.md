@@ -1,0 +1,29 @@
+---
+layout: post
+title: Embracing New Business Models with the Agile Platform
+date: 2010-04-16 18:17
+author: mozzello
+comments: true
+categories: [Agile, agile user conference, Application Development, Estradas de Portugal, Nextstep, outsystems, Platform in Action]
+---
+The final customer case study of the day, but certainly not the least, was presented by Rui Ribeiro, of <a href="http://www.estradasdeportugal.pt/">Estradas de Portugal</a>. This organization works to fund, maintain, plan and extend the road system throughout Portugal as a public service, and Rui talked about the importance of IT in supporting the changes that the company is undergoing.<!--more-->
+
+<span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img class="mt-image-right" style="float: right; margin: 0pt 0pt 20px 20px;" alt="rui ribeiro.jpg" src="https://www.outsystems.com/blog/wp-content/uploads/2010/04/rui%20ribeiro1.jpg" width="250" height="251" /></span>
+
+<b>Their challenge</b>: being an 80-year-old state-owned company that's changing its management paradigm, changing its very business model - because the company needed to find new revenue streams. In order to become more sustainable, they needed to better and more directly address their end-user - the road users. They need to know who their customers are, where are they going, and what do they need from the Portuguese road system. From an IT perspective they needed to have business information online and to interface directly with their business partners.
+
+To this end, they created a <a href="http://www.estradas.pt/">Portugal Traffic site</a> for customers, with real-time access to data about traffic in Portugal, and they are implementing features to communicate directly with their users - using SMS, e-mail, a laptop widget, and others mechanisms. All of this is helping the organization change its image from one of a traditional public organization to a modern and competitive one.
+
+<span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img class="mt-image-center" style="text-align: center; display: block; margin: 0pt auto 20px;" alt="estradas website.jpg" src="https://www.outsystems.com/blog/wp-content/uploads/2010/04/estradas%20website1.jpg" width="500" height="274" /></span> <b>Why choose OutSystems?</b> In 2009 they were faced with a huge set of IS issues the first of which was their agility - fundamentally, their ability to adapt to the needs of their new business model quickly. As well as huge number of applications, little integration and silos; the IT team was focused on internal applications which were not web enabled, but unproductive windows and legacy forms. In addition, and probably hardest to change, their internal users saw them as a cost center and not a partner. Rui and team needed to change this viewpoint and be considered as a strategic part of the business.
+
+To do this, they went about choosing a set of preferred technologies and partners and defined a set of architectural stacks to enable this goal. They HAD to do this in order to achieve their future goals and most importantly, they needed to be FAST. This is where OutSystems came in; other organizations like Brisa (another OutSystems client) or Ascendi had already done it, and Estradas de Portugal was behind and needed to move faster and get more competitive.
+
+They started using the OutSystems Agile Platform to leverage their IT business knowledge and build and deliver new web systems rapidly.  Another by-product of adopting OutSystems was that it helped them get closer to their users - yes, the introduction of a new methodology (Agile) enabled them to "break the ice" with the internal customers, delivering value and quickly.
+
+<b>Results after the first year:</b> today they have a huge set of projects running on OutSystems. Financial applications: budgeting, commitment management, payment processing and financial dashboards. Also running on OutSystems; an identity management system, inventory management systems and systems for managing road security.
+
+Rui described their biggest OutSystems implementation to date in a little more detail- a financial and supplier management system. They originally had the Oracle eBusiness Suite in place but suffered the typical issues of a packaged application. So, they chose to build a ring of services around it to support their specific needs and used OutSystems to build a set of applications (budgeting, commitment, payment) - with a sprint/demo every 2 weeks. On Jan 4th of 2010, this portion of the application was released.  The next phase is to extend the application with the goal of communicating more openly and accurately with their suppliers (e.g. supplier request, contracts and evaluations,) and hopefully remove all the phone calls that are currently needed.
+
+<b>Achieving strategic goals:</b> today the Estradas de Portugal IT team is making progress toward their goal of no longer being seen as a cost center - but rather becoming a strategic part of the company.  The applications they have and continue to implement - and in particular, the speed at which they are making change - are making a difference to the way they service their customers and, as a result, the overall perception of the company.
+
+&nbsp;

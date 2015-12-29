@@ -1,0 +1,38 @@
+---
+layout: post
+title: From Lotus Notes and  Beyond - An Agile Migration Story
+date: 2010-09-29 11:16
+author: gveiga
+comments: true
+categories: [Agile Platform, Agile Project, Customer Story, Excel to Apps, Fast Deployment, Platform in Action]
+---
+<div>I wanted to share a recent experience I had with one of our newest customers. We'll keep the name undisclosed for now, but these guys are a truly global company and a recognized leader in their industry.</div>
+<div></div>
+<div>When we first met the customer's team, they were faced with the challenge of migrating away from antiquated technologies and hand coding into a platform that would allow their team to respond to business needs very fast but also with high quality and scalability. The team had evaluated tens of alternatives to achieve this goal and eventually decided on the <a href="http://www.outsystems.com/agile-platform/">Agile Platform</a> as a technology that would allow them to achieve their time to market goals without sacrificing quality or scalability. <!--more--></div>
+<div></div>
+<div>I had the pleasure to be involved with this process from the beginning and on my last visit I was asked to help them define their migration strategy from the older technologies like Lotus Notes into a modern, web-enabled platform like <a href="http://www.outsystems.com">OutSystems</a>. Now for the challenge: the team has been very prolific over the years and had well over a thousand Notes applications that need to be migrated, discontinued, or rewritten from scratch. The big question behind this process was clear - what is the most efficient way to determine which applications go where?</div>
+<div></div>
+<div><b>What goes where?</b></div>
+<div>With this many applications it was almost impossible to understand the entire portfolio usage - let alone determine each application's fate. Luckily, the team had been disciplined and kept track of useful information like application purpose, templates used, and change requests.  Using an Excel file with all this information, the team built an OutSystems application in 5 minutes using <a href="https://www.outsystems.com/blog/aboutagility/2010/08/the-departmental-web-app---from-niche-to-mission-critical-1.html">IntelliWarp</a>. The application was then used to determine a <b>conversion score</b> for each application, taking into consideration five important factors:</div>
+<div></div>
+<div>
+<ol>
+	<li><b>Type of application</b> - Applications that were primarily discussion based were deemed more adequate for other technologies, like Sharepoint. OutSystems applications are typically high-value, highly customized applications that you just can't get out of the box;</li>
+	<li><b>User population</b> - Targeting  reasonably small groups of users seemed like a sound strategy to initiate a technology deployment;</li>
+	<li><b>Usage patterns</b> - Because value comes from usage, the team decided that highly intense usage would be a good scoring facet for the applications;</li>
+	<li><b>Development team</b> - To ensure knowledge transfer happened smoothly, the old applications that were originally developed by team members staffing the new OutSystems dev group were preferred;</li>
+	<li><b>Rate of change</b> - The OutSystems Platform is all about change - the team wanted applications that are alive and evolving, with constant requests for new features or tweaks to existing ones.</li>
+</ol>
+</div>
+<div></div>
+<div>Taking into account the above factors, our "secret sauce" conversion score algorithm yielded a migration score that determined the benefit of migrating an application to the OutSystems Platform.  Because this was all done automatically and in just a couple of hours, target applications were defined and discussed much earlier than they would have been by any other means.</div>
+<div></div>
+<div>Next, the team took advantage of the '<a href="http://www.outsystems.com/agile-platform/true-change/">speed to change</a>' capability of the Agile Platform by extending the new portfolio management application to record the proposed migration strategy (destination platform) when it came time to replace each old application.</div>
+<div></div>
+<div>Curious to see what the new portfolio management tool looks like? The screenshot below shows the application (with data erased for privacy).</div>
+<div></div>
+<div><span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" alt="app_profiles.png" src="https://www.outsystems.com/blog/wp-content/uploads/2010/09/app_profiles2.png" width="508" height="333" /></span></div>
+<div>By using the speed of the Agile Platform, combined with technical skill and a healthy dose of pragmatism, the team was able to create the new portfolio application that helped them optimize a fundamental process in their work and bring more value, faster! - This is the essence of agility.</div>
+<div></div>
+<div>What about you? Do you have any similar success stories to share with us?</div>
+&nbsp;

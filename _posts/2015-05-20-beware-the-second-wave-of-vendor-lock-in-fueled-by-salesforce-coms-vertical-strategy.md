@@ -1,0 +1,19 @@
+---
+layout: post
+title: Beware the Second Wave of Vendor Lock-In Fueled by Salesforce.com’s Vertical Strategy
+date: 2015-05-20 17:20
+author: sean
+comments: true
+categories: [Perspectives, SaaS, salesforce]
+---
+When <a href="http://www.forbes.com/sites/greatspeculations/2014/04/10/salesforce-continues-to-target-revenue-growth-with-new-industries-strategy/" target="_blank">Salesforce.com announced its new industries strategy</a>, analysts predicted it would be the catalyst for a “second wave of SaaS adoption.” But as the SaaS provider rolls out verticalized offerings built on the Salesforce1 Platform, it will also become the second wave of vendor lock-in.<!--more--><img class="alignright size-full wp-image-3347" style="margin-bottom: 5px;" src="http://www.outsystems.com/blog/wp-content/uploads/2015/05/no-lock-in-200x195.png" alt="no-lock-in-200x195" width="200" height="195" />
+
+With its Industries Business Unit, Salesforce.com is looking to expand into six vertical industries: financial services/insurance, health care/life sciences, retail/consumer products, communications/media, public sector and automotive/manufacturing. The company hired experts who previously held a C-level or VP position in his/her respective industry to lead each group in building vertical apps on the Salesforce1 Platform.
+
+Traditionally, industry-specific apps are in-house or custom developed solutions - and for good reason. The technologies are not only specific to the industry, but to the needs of the individual companies. In some cases, these apps serve as a competitive differentiator. A packaged solution is simply not an option.
+
+Salesforce.com is trying to make it an option by offering vertical-specific apps that can be customized by the customer and that run on Salesforce1 Platform. For companies that want to modernize their legacy apps, a customizable SaaS offering might seem like an attractive option. The problem, however, is that Salesforce1 Platform is its own standard. You may eventually have a custom app for your organization and vertical that does almost exactly what you want it to do, but you are stuck on the Salesforce1 Platform because it is not an industry-wide standard. The result: vendor lock-in. If Salesforce.com raises its pricing structure or otherwise falls out of favor, you have no choice but to continue to pay, or completely rewrite your app elsewhere.
+
+There are other options for modernizing legacy vertical apps that not only allow companies to reap the benefits of SMAC (social, mobile, analytics and cloud) but also allow you to retain control of your intellectual property and data. A Rapid Application Delivery (RAD) solution like OutSystems Platform gives you access to all of your existing systems as building blocks for the new system you are building. You can build custom systems of engagement all through a visual model-based development environment, ensuring that you get the exact app you need to run your business - without being locked into any vendor.
+
+Salesforce.com had no choice but to hire a team of industry veterans to pre-build vertical apps based on Salesforce1. But you already have the expertise you need. You know your business from top to bottom, and you know your core differentiation - where you innovate. With a RAD platform, you can take advantage of that knowledge - as opposed to someone else’s - and turn it into an application portfolio extraordinarily fast that perfectly fits your needs without the risk of vendor lock-in.

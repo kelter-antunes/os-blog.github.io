@@ -1,0 +1,24 @@
+---
+layout: post
+title: Who Do You Trust? Thoughts from the Integrating Agile Conference
+date: 2009-06-22 12:22
+author: mwj
+comments: true
+categories: [Agile, agile adoption, Agile Consortium Benelux, agile development, Agile Holland, agile methodology, Henrik Kniberg, Integrating Agile Conference, outsystems, Perspectives, Rob Thomsett]
+---
+I had the opportunity to present at this year's <a href="http://agileconsortium.nl/en/conference.html">Integrating Agile Conference</a> in Amsterdam, Netherlands.  The daylong event was kicked off and closed by two fairly famous Agilistas.<!--more-->
+
+<span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img class="mt-image-right" style="margin: 0pt 0pt 20px 20px; float: right;" alt="OutSystems.jpg" src="https://www.outsystems.com/blog/wp-content/uploads/2009/06/OutSystems2.jpg" width="300" height="234" /></span>
+
+First, <a href="http://www.linkedin.com/in/hkniberg">Henrik Kniberg</a> kicked off the event with an excellent keynote address focused on the value of Agile when applied correctly.  Check out his blog post on "<a href="http://blog.crisp.se/henrikkniberg/2008/01/03/1199369940000.html">Failing With SCRUM</a>." During his presentation Henrik made some great points regarding root cause analysis.  I found one of his examples quite interesting - using his root cause analysis technique he had helped a customer uncover that the real issue was a lack of <b>trust </b>between IT and the business.  While Henrik's main point was about how Agile is simply a 'tool' that when applied correctly will improve application development, I found his point about trust most interesting because in my experience Agile, when practiced properly, will help overcome a lack of trust between IT and the business.  More on trust in a moment...
+
+The closing keynote was given by <a href="http://www.linkedin.com/pub/rob-thomsett/1/464/226">Rob Thomsett</a>.  I was actually late to the closing keynote but very glad I got to hear most of it.  For those of you who, like me, do not know of Rob, he is an 'old guy' with some very interesting insights into Agile.  You can read some of Rob's thinking in his <a href="http://www.thomsett.com.au/content/thomsett/blog.asp">personal blog</a>.  While I don't know Rob, I felt like he was an old friend after his presentation - I guess that means he is a great presenter!  He is obviously a Star Trek fan and since he mentioned Stevie Ray Vaughn he must love music. BTW, I am sure if he reads this blog post he will chuckle about the "old guy" comment!
+
+Rob also made some great points during his presentation regarding management style; agile adoption issues and he also hit on the point of trust.  He took the issue of trust beyond the relationship between IT and the business by calling out most of the audience (IT folks) and making the point that trust started with the technical team <i>trusting each other</i>.  <b>Does your technical team trust each other?</b>  Something to think about!
+<span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img class="mt-image-left" style="margin: 0pt 20px 20px 0pt; float: left;" alt="Agile Holland and Agile Consortium logos.jpg" src="https://www.outsystems.com/blog/wp-content/uploads/2009/06/Agile%20Holland%20and%20Agile%20Consortium%20logos1.jpg" width="150" height="119" /></span>
+
+It was a great day in Holland for Agile - with over 100 people all sharing and learning.  For me, a key take away is how important trust is to being successful!
+
+I hope you will share your Agile experiences and how they have helped your business and development team overcome trust issues!
+<div></div>
+<!--more-->

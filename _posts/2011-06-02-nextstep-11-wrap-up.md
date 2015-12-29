@@ -1,0 +1,32 @@
+---
+layout: post
+title: NextStep '11 Wrap-up
+date: 2011-06-02 14:45
+author: Rodrigo
+comments: true
+categories: [agile user conference, Nextstep, Perspectives, presentation download]
+---
+<div>On May 19 and 20 we had another great edition of our user conference, the <a href="http://www.outsystems.com/nextstep/">NextStep</a>. It was an <b>amazing event</b> with the <b>largest ever gathering</b> of our customers, our partners, members of the press, and <a href="http://www.outsystems.com/">OutSystems</a> employees.</div>
+<div></div>
+<div>During these two days we had keynotes, technical sessions, personal demos, breakfast tables, lunches and coffee breaks. And in all of these <b>everybody shared their work experiences</b>, their expertise using the Agile Platform, their ideas on how to make IT more efficient, and a myriad of other topics were discuss around making business and IT life easier.<!--more--></div>
+<div></div>
+<img class="mt-image-right" style="float: right; margin: 0 0 20px 20px;" alt="nextstep-bowl.png" src="https://www.outsystems.com/blog/wp-content/uploads/2011/06/nextstep-bowl2.png" width="311" height="210" />
+<div>So that you have an idea of how busy the event was this year, here are a few of the numbers that made NextStep '11 so <b>awesome</b>!</div>
+<div></div>
+<div>
+<ul>
+	<li>We had <b>7</b> booths at the expo hall</li>
+	<li>We filled <b>12</b> breakfast tables, each discussing an IT topic</li>
+	<li>We handed out <b>12</b> agility awards to our customers and partners</li>
+	<li>We had <b>27</b> great sessions on business and technology</li>
+	<li>We welcomed over <b>500</b> participants...</li>
+	<li>...from <b>10</b> different countries!</li>
+</ul>
+</div>
+<div style="text-align: center;"></div>
+<div style="text-align: center;"><iframe src="http://www.youtube.com/embed/Wmui9NLf7Zk" height="349" width="560" allowfullscreen="" frameborder="0"></iframe></div>
+<div></div>
+<div>We had a lot of fun organizing this event, and hope everybody enjoyed it. But this was only possible thanks to our fabulous speakers, to our sponsoring partners, to everyone that helped assemble and organize the venue and, of course, to everybody that attended and turned NextStep into a great show.<b> Thank you very much!</b></div>
+<div></div>
+<div>We've made a lot of material available online to those that attended and want to review it, and to those that couldn't make it but wished they were there. You can get it at the <a href="http://www.outsystems.com/nextstep/Presentations.aspx">NextStep website</a>.</div>
+&nbsp;

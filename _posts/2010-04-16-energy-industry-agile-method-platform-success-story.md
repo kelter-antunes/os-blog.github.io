@@ -1,0 +1,43 @@
+---
+layout: post
+title: Energy Industry Agile Method & Platform Success Story
+date: 2010-04-16 11:30
+author: mozzello
+comments: true
+categories: [Agile, Application Development, Energy Industry, glintt, Nextstep, outsystems, Platform in Action, REN]
+---
+Track 1 started with a great presentation by <a href="http://www.linkedin.com/profile?viewProfile=&amp;key=20560909&amp;authToken=8Mce&amp;authType=NAME_SEARCH&amp;locale=en_US&amp;srchindex=3&amp;pvs=ps&amp;goback=%2Efps_sandra+fernandes_*1_*1_*1_*1_*1_*1_*1_Y_*1_*1_*1_false_1_R_true_G%2CN%2CI%2CCC%2CPC%2CED%2CFG%2CL%2CDR_*2_*2_*2_*2_*">Sandra Fernandes</a>, Project Manager of <a href="http://www.glintt.com/">Glintt</a>, that shared an interesting case study of a solution delivered to <a href="http://www.ren.pt/ven/Pages/home02.aspx">REN Trading</a> (a large Portuguese utilities company, part of REN).
+
+The main takeaway of the session was the very positive results Glintt reaped from using an Agile Methodology approach.
+
+Sandra began by explaining REN's business, which is actually very complex - just like most Utilities companies I've come across! Let me try to summarize it: REN is responsible for managing a large array of processes from energy production to CO2 emission allowances.<!--more-->
+<p style="text-align: left;"><span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img class="mt-image-right aligncenter" style="margin-top: 0pt; margin-bottom: 20px;" alt="sandra 2small.jpg" src="https://www.outsystems.com/blog/wp-content/uploads/2010/04/sandra%202small1.jpg" /></span>
+For those not familiar with the energy market, keep in mind that energy cannot be stored, so you need to produce what will be consumed, and respond to any production/consumption change in real-time. On a daily basis, you need to collect data, aggregate it and make decisions in real time to ensure the success of your business. The impressive fact that struck the audience was that, before this system was delivered, REN managed most of their operations and calculations using a complex ecosystem of interlinked spreadsheets. Just take a minute to think how that might look like...</p>
+Sandra took some time to describe the final solution, giving the audience a feel of how the system actually works. When she explained all the functionality the system offers (which I'm keeping off this post to keep it short) and mentioned it was delivered in 16 weeks, you could see people wondering "how was this possible?"
+
+Sandra quickly answered that question in the next slides: using an agile methodology and the OutSystems Agile Platform!
+
+Some quick project stats:
+<ul>
+	<li><b>Go live in 14 weeks</b></li>
+	<li><b>5 sprints/demos + 1 tuning sprint of 2 weeks</b></li>
+	<li>Glintt Team: 1 Engagement Manager, 1 Delivery Manager, 2 developers</li>
+	<li>Customer team: 1 Sponsor, 1 Manager, 2 key users</li>
+</ul>
+Despite the complex project scope and the relatively small project teams (from both the customer and Glintt) and timeline, the project was delivered on-time, on budget and with strong user adoption!
+
+Sandra wrapped up her presentation sharing what she considers to have been the key success factors:
+<ul>
+	<li><b>Strong commitment and early adoption of the agile methodology by the customer</b> - Glintt actually ran a workshop session with the customer to get them up to speed on the agile methodology and engage them from day one;</li>
+	<li><b>Continuous coaching and alignment of expectations</b> - this ensured that as the project evolved, the customer was always aware of the "cost" required to implement features and perform changes.</li>
+	<li><b>Early implementation of the most complex business processes</b> - this got buy-in from the customer since they saw, very early in the project, how the main features would work and understood they were actually going to get what they wanted! It also reduced project risk.</li>
+	<li><b>Agile Platform's ability to support continuous and fast change</b> - starting with relatively fuzzy scope that is constantly being renegotiated and realigned, means you need to react to change very fast. According to Sandra, without the Agile Platform's support for change, it would have been impossible to deliver such level of change in such a short timeline;</li>
+	<li><b>Both teams were highly motivated</b> - seeing a demo with many of the key functionality working after just 3 weeks boosted the customer's confidence of the project's success and the whole project team's motivation.</li>
+</ul>
+<span style="font-size: 1.25em;"><b>"Our objective is that every single project reaches this level of success, and is not seen as an exception, but as the norm. This way IT will no longer be considered 'the last inefficient industry of the 21st century'. This is our goal and we're on the right path." </b></span>
+Sandra Fernandes, Glintt
+
+PS: Glintt won an <a href="http://www.outsystems.com/Company.aspx?FolderId=5713&amp;ParentFolderPath=%2fRoot%2fContents%2fCorporate%2fCompany&amp;SectionName=Company&amp;FolderPath=%2fRoot%2fContents%2fCorporate%2fCompany%2fagility-award">Agility Award</a> for this project in 2009.
+
+<i><b>About the presenter:</b>
+Sandra Fernandes is currently Project Manager at Glintt, IT Consulting, with experience in Agile and PMBOK Project Management Methodologies and business experience on the Energy Market, E-Commerce and B2B platforms, Workflow Systems, Wine and Vineyard Business Processes. Previously Sandra was the coordinator of the Web Portals business unit and Project Manager of several on-going projects co-financed by the European Commission. Graduated as a Computer Engineer at the New University of Lisbon in 1995, she enhanced her academic education with the completion of a Masters Degree in 1999 in "Distributed Multimedia Systems" in the School of Computer Studies of the University of Leeds, UK, at the end of which she was awarded a Distinction of Excellence for her work. From 1995 to 1996 she was responsible for the development of a Production Scheduling System for Ford Electronic. From 1996 to 1998, in SMD, she participated in many European Projects as part of the Research &amp; Development team.</i>

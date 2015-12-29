@@ -1,0 +1,13 @@
+---
+layout: post
+title: NextStep'09 Agile Conference Highlights Video
+date: 2009-05-06 14:24
+author: mozzello
+comments: true
+categories: [Agile Event, NextStep'09, OutSystems Users Conference, Perspectives]
+---
+If you are wondering what NextStep'09 was all about, the following highlight reel from our 2009 event shows all our Agile conference attendees in action - from keynotes to sessions, partner pavilion and opening reception.
+
+If you attended the event this year - OutSystems customers, partners, special guests and employees are all in here - check it out and see if you can find yourself!<!--more-->
+<div align="center"><object width="425" height="344" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://www.youtube.com/v/_ri9d-3PSEE&amp;hl=en&amp;fs=1" /><param name="allowscriptaccess" value="always" /><param name="allowfullscreen" value="true" /><embed width="425" height="344" type="application/x-shockwave-flash" src="http://www.youtube.com/v/_ri9d-3PSEE&amp;hl=en&amp;fs=1" allowscriptaccess="always" allowfullscreen="true" /></object></div>
+&nbsp;

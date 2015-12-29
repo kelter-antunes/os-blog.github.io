@@ -1,0 +1,16 @@
+---
+layout: post
+title: Getting approval & funding for Agile IT projects - do we need to change corporate culture?
+date: 2009-05-19 11:23
+author: mwj
+comments: true
+categories: [Agile Budgeting, Agile Project Approval, Agile Project Management, Funding Agile Projects, Perspectives]
+---
+During last week's <a href="http://www.outsystems.com/goto/agile-in-a-day">Agile-in-a-Day workshop</a> in the Netherlands, I participated in an interesting discussion with the group of 25+ current and future Agile practitioners - on the impact of Agile methodologies on well established corporate processes and culture. <!--more-->
+<span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img class="mt-image-right alignright" style="margin: 0pt 0pt 20px 20px;" alt="moneybag4.JPG" src="https://www.outsystems.com/blog/wp-content/uploads/2009/05/moneybag411.jpg" width="213" height="158" /></span>
+In particular, on the question of moving Corporate IT to Agile and how that means changing the traditional way that IT projects get approved and funded.  The group felt that breaking the traditional cycle of detailed requirements documents, mandatory project deliverables and change requests would impact the entire project approval/funding and management processes - and yes, successful transition to an Agile model would require corporate IT to educate their business owners and stakeholders on the Agile approach.  However, the workshop participants all agreed that making this change would definitely be a challenge.
+
+One of the strategies we discussed was shifting the focus of the procurement process from <i>detailed requirements</i> to defining the <i>amount of functionality</i> to be delivered.  We shared the OutSystems' approach of using user stories and patterns to set a high level scope of functionality to be delivered and made the case that function points could be used as the measure of functionality - since this would allow the delivery team the necessary freedom to adjust the requirements during the project while still meeting a target deliverable.
+
+This seems to be a recurring theme that I'm hearing from IT teams who want to embrace Agile. If you have faced this challenge and succeeded (or failed) - what do you think of the above approach and how does your IT team get its Agile projects approved and funded?
+<div></div>

@@ -1,0 +1,29 @@
+---
+layout: post
+title: NextStep is HERE!
+date: 2010-04-15 11:13
+author: mozzello
+comments: true
+categories: [agile user conference, Massimo Pezzini, Nextstep, outsystems, Perspectives]
+---
+Today is the first day of OutSystems' Annual User Conference - <a href="http://www.outsystems.com/nextstep/">NextStep</a>. This year we have over 661 agile practitioners registered for the conference (more than doubling last year!) and they'll soon be pouring into the <a href="http://www.estorilcc.com/en/home.aspx">Estoril Congress Center</a>, in the beautiful seaside resort of Estoril - just outside Lisbon, Portugal.<!--more-->
+
+<span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img class="mt-image-right" style="float: right; margin: 0pt 0pt 20px 20px;" alt="estoril conf 3.jpg" src="https://www.outsystems.com/blog/wp-content/uploads/2010/04/estoril%20conf%2031.jpg" width="150" height="269" /></span>
+
+This morning, our <a href="http://www.outsystems.com/partners">OutPartner community</a>, represented by partners from all over Europe and the US, is meeting for a quarterly InStep session.  After lunch, we're looking forward to the kick-off of NextStep by <a href="http://www.gartner.com/AnalystBiography?authorId=9152">Massimo Pezzini</a>, VP and Gartner Fellow, and his keynote on how organizations can improve IT efficiencies in this new decade.
+
+If you are unable to be with us in beautiful Portugal this week - we haven't forgotten about you! We'll be blogging and tweeting on the conference sessions, which you can follow on our <a href="http://www.outsystems.com/nextstep/">NextStep social media page</a>.
+
+<img class="mt-image-left" style="float: left; margin: 0pt 20px 20px 0pt;" alt="reg desk.jpg" src="https://www.outsystems.com/blog/wp-content/uploads/2010/04/reg%20desk1.jpg" width="270" height="203" />
+
+If you're attending the conference - we'd love to hear your thoughts - in person, on our blog or in the <a href="http://twitter.com/outsystems">twittersphere</a>!  Please share your shots of the conference on the <a href="http://www.flickr.com/groups/nextstep2010/">Flickr page</a> and don't forget to use the twitter <a href="http://search.twitter.com/search?q=%23nxstep+OR+%23outsystems"><b>#nxstep</b></a> hashtag!
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
