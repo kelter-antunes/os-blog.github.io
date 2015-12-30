@@ -6,6 +6,21 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+
+<script>!function(t,e,n,a,s,o,r,i){n&&(o=n[a],o&&(r=t.createElement("style"),r.innerHTML=o,t.getElementsByTagName("head")[0].appendChild(r)),i=e.setAttribute,e.setAttribute=function(t,r,p,u){"string"==typeof r&&r.match(s)&&(p=new XMLHttpRequest,p.open("GET",r,!0),p.onreadystatechange=function(){4===p.readyState&&(u=p.responseText,u!==o&&(n[a]=u))},p.send(null),e.setAttribute=i,o)||i.apply(this,arguments)})}(document,Element.prototype,localStorage,"tk","https://use.typekit.net");</script>
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'jlz7hji',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+
+
+
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">

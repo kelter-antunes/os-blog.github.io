@@ -9,7 +9,7 @@ Version: 1.6
 */
 
 body {
-    background: url(img/blog-top-page-shadow.png) top center;
+    background: url(/img/blog-top-page-shadow.png) top center;
     background-repeat: repeat-x;
     background-color: #e6e6e6;
 }
@@ -262,7 +262,7 @@ a img.aligncenter {
     background: none
 }
 .search_field .button {
-    background: url(http://www.outsystems.com/CMS_BackOffice/ResourceLink.aspx?ResourceName=icons&v=26072013) no-repeat -1px -1px
+    background: url(/img/icons_buttons_imgs.png) no-repeat -1px -1px
 }
 .header_top {
     clear: both;
@@ -291,7 +291,7 @@ a img.aligncenter {
     cursor: pointer
 }
 .categories i {
-    background: url(img/icons.png) no-repeat;
+    background: url(/img/icons_buttons_imgs.png) no-repeat;
     display: inline-block
 }
 .categories i.tech-zone, .categories i.tech-alueella {
@@ -337,7 +337,7 @@ a img.aligncenter {
     background-color: #CC2928
 }
 .post .header .category.perspectives i, .post .header .category.nakokulmia i, .post .header .category.platform-in-action i, .post .header .category.alustan-toiminta i, .post .header .category.tech-zone i, .post .header .category.tech-alueella i {
-    background: url(img/icons.png) no-repeat;
+    background: url(/img/icons_buttons_imgs.png) no-repeat;
     display: inline-block
 }
 .post .header .category.perspectives i, .post .header .category.nakokulmia i {
@@ -517,13 +517,13 @@ a.postlink:hover {
 }
 .author i {
     display: inline-block;
-    background: url(img/icons.png) no-repeat -48px -63px;
+    background: url(/img/icons_buttons_imgs.png) no-repeat -48px -63px;
     width: 18px;
     height: 17px
 }
 .tags i {
     display: inline-block;
-    background: url(img/icons.png) no-repeat -4px -63px;
+    background: url(/img/icons_buttons_imgs.png) no-repeat -4px -63px;
     width: 20px;
     height: 17px
 }
@@ -601,7 +601,7 @@ a.postlink:hover {
 }
 .feeds_home a i, .feeds a i {
     display: inline-block;
-    background: url(img/icons.png) no-repeat -4px -89px;
+    background: url(/img/icons_buttons_imgs.png) no-repeat -4px -89px;
     width: 13px;
     height: 15px
 }
@@ -613,7 +613,7 @@ a.postlink:hover {
 }
 .feeds_home a:hover i, .feeds a:hover i {
     display: inline-block;
-    background: url(img/icons.png) no-repeat -4px -111px;
+    background: url(/img/icons_buttons_imgs.png) no-repeat -4px -111px;
     width: 13px;
     height: 15px
 }
