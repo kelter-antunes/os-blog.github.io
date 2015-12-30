@@ -1,0 +1,54 @@
+---
+layout: post
+title: Code liability - How to reduce your risk?
+date: 2011-02-09 16:20:58.000000000 +00:00
+type: post
+published: true
+status: publish
+categories:
+- Dev Zone
+tags:
+- Change
+- mdd
+- model-based
+meta:
+  _edit_last: '72'
+  send_email_disabled: '1'
+  email_sent: '1'
+author:
+  login: Rodrigo
+  email: rodrigo.coutinho@outsystems.com
+  display_name: Rodrigo Coutinho
+  first_name: ''
+  last_name: ''
+---
+<div>It is now widely accepted that source <b>code is not an asset</b>, but rather a liability. This is a very strong idea that has a lot of impact across the IT industry and in the way developers view and perform their day-to-day work.</div>
+<div></div>
+<div>One of the <a href="http://blog.objectmentor.com/articles/2007/04/16/code-is-a-liability">earliest articles</a> on this subject was published on "Object Mentor". <!--more-->The article is really good, but while reading it I spotted something <b>I really can't agree with</b>:</div>
+<blockquote class="webkit-indent-blockquote" style="margin: 0 0 0 40px; border: none; padding: 0px;">
+<div><span style="font-size: 1.25em;"><span style="font-size: 1.25em;"><span style="font-size: 1.25em;"><span style="font-size: 0.8em;"><b>"</b></span></span></span></span><i>The problem doesn't go away if you artificially reduce the code. (...) Moving it into metadata and models and other forms doesn't make it any smaller, and often makes it worse. Hand-crafted code is almost always more readable, smaller, more optimal, more focused, more literary in its style than generated code or funky data tables.</i></div>
+</blockquote>
+<div></div>
+<div style="padding-top: 20px;"><b><span style="font-size: 1.25em;"><span style="font-size: 1.25em;"><span style="font-size: 0.8em; color: #ab0404;">Models will help!</span></span></span></b></div>
+<p><img class="mt-image-right" style="float: right; margin: 0 0 20px 20px;" alt="VISourceCode.PNG" src="{{ site.baseurl }}/assets/VISourceCode.PNG" width="268" height="199" /></p>
+<div>I'm a strong believer in <b>Model Driven Development</b> (MDD). I think models are a great way to abstract low-level code, and can make software much easier to understand and change.  I'm not talking about using models as an intermediate stage to generate a portion of your code. True MDD means<b> the entire development process is done on top of the model</b>. Much like you use C# or Java instead of assembler language, in MDD you use models instead of C# or Java.</div>
+<div></div>
+<div>This may not completely fix the problem: following the article's reasoning, at some point the model will become the liability. But it will greatly reduce the risk of this liability for a very large part of your software. Why?  Models mean abstraction, which equals less objects to know and manage thus reducing complexity. <b>Models let you focus on the business problem</b> and not worry about all the plumbing to deliver a scalable, robust application.  Models reduce risk when change is needed and speed up the delivery process.</div>
+<div></div>
+<div style="padding-top:20px;"><b><span style="font-size: 1.25em; color: #ab0404;">Hand-crafted code is beautiful... for 5 minutes!</span></b></div>
+<div>The best guy on the team (you!) builds this really amazing beautiful code. It's totally optimized, and it's so wonderfully written that angels weep as they read through the lines of code... <b>And then things change</b>.</div>
+<div></div>
+<div>The code is handed out to the maintenance team, the requirements change, and assumptions used to build it turn out to be wrong... it really doesn't matter what the reason is, someone will have to touch your perfect code. And it's all downhill from there.</div>
+<div></div>
+<div style="padding-top:20px;"><span style="font-size: 1.25em; color: #ab0404;"><b>Blame complexity</b></span></div>
+<div>It's not that other developers who will touch your code are idiots. It's just that the <b>context surrounding your code is huge</b>, documentation is typically inadequate, and although they think they get it, more often than not they miss something. The system is just too complex.</div>
+<div></div>
+<div>Once again, <b>MDD provides a huge help</b> in making the system look simpler. It makes it much easier to see the full picture, and it really improves knowledge sharing between developers. Of course there will always be problems so complex that even the model is hard to understand, but fixing the vast majority of situations is a big plus!</div>
+<div></div>
+<div style="padding-top:20px;"><b><span style="font-size: 1.25em; color: #ab0404;">Some words of advice</span></b></div>
+<div>As you probably noticed, I'm a big fan of MDD. But you do need to be careful when picking your tool of choice. A whole article could be written on that subject, but let me just leave you with three tips: Make sure your tool supports the <b>full development lifecycle</b>, prioritize <b>fast change</b> higher than fast build, and make sure the application generated by the model is based on <b>standard</b> technologies, is <b>fast</b> and <b>scalable</b>.</div>
+<div></div>
+<div>My final advice: quit piling up the debt and start investing in MDD now.</div>
+<div></div>
+<div>Happy modeling!</div>
+<p>&nbsp;</p>

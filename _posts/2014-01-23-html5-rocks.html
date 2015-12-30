@@ -1,0 +1,130 @@
+---
+layout: post
+title: HTML5 Rocks
+date: 2014-01-23 10:53:16.000000000 +00:00
+type: post
+published: true
+status: publish
+categories:
+- Dev Zone
+tags:
+- html5
+- w3c
+meta:
+  _edit_last: '72'
+  _thumbnail_id: '1691'
+  send_email_disabled: '1'
+  email_sent: '1'
+author:
+  login: rubgon
+  email: ruben.goncalves@outsystems.com
+  display_name: Rúben Gonçalves
+  first_name: Rúben
+  last_name: Gonçalves
+---
+<p>What kind of title is “HTML5 Rocks” for a blog post? Hopefully by the end of this post you’ll both understand and feel it as well!</p>
+<p>First, a little history. The <a href="http://www.w3.org/html/wg/drafts/html/master/introduction.html#introduction" target="_blank">W3C</a> states that:</p>
+<p>“<em>HTML (Hypertext Markup Language) was primarily designed as a language for semantically describing scientific documents, although its general design and adaptations over the years have enabled it to be used to describe a number of other types of documents.</em>”<!--more--></p>
+<p>This actually means that HTML was not created to target the vague subject commonly referred to as Web Applications.</p>
+<p>The 5th major version of HTML (aka HTML5) introduces new features, ranging from CSS3 (related technology) to GeoLocation and WebStorage that mainly target Web Applications. HTML5 is not one big thing but a collection of individual features. This actually means two things:</p>
+<ol>
+<li>HTML5 support can’t be detected and instead we must detect if the specific feature that we want to use is supported by the browser (feature detection).</li>
+<li>HTML5 specification is not closed. More and more features are being included in the W3C recommendation.</li>
+</ol>
+<p>The image below gives a small idea of what might be added in the near future.</p>
+<p><img class="aligncenter size-full wp-image-1661" alt="html5-pic1" src="{{ site.baseurl }}/assets/html5-pic1.png" width="567" height="384" /></p>
+<p>But from all these cool, and perhaps cryptic, features, there are a couple that we should try to incorporate into our applications without hesitation.</p>
+<p>So, is HTML5 introducing new tags? Not entirely true. If you still think of HTML as only tags and angle brackets, you’re missing an important part. For example, HTML5 doesn’t just define the &lt;video&gt; tag, but also the corresponding API. With this API, it’s possible to detect support for video format, stop, play, pause or even to know how much of the video has been downloaded.</p>
+<p>You might be thinking, “I build enterprise applications, so those features don’t really fit in!” Well, that couldn’t be further from the truth. In our fast-paced world, not being available in mobile is almost like not existing. So, when adapting or creating web applications, we must consider that users might not be where we think they are (e.g. office desk).</p>
+<p>With this in mind, we can create better applications (see <a href="http://www.outsystems.com/blog/2013/11/solving-the-pitfalls-and-complexity-of-responsive-design.html">Solving the Pitfalls and Inherent Complexity of Responsive Design</a>) by adding features to the application that will further help the user performing the tasks.</p>
+<p>&nbsp;</p>
+<p><strong>So, what are the <span style="color: #000080;">Top 5 features</span> of HTML5 that we should be using now?</strong></p>
+<h4 style="padding-top: 20px;"><span style="color: #000080;"><strong>1. GeoLocation</strong></span></h4>
+<p><strong>This feature obtains the geographical position of a device. Imagine:</strong></p>
+<ul>
+<li>Showing information based on the user’s location.</li>
+<li>Mapping the day’s route for your salespeople.</li>
+<li>Giving delivery drivers specific directions based on their location (A):</li>
+</ul>
+<p style="text-align: left;"><img class="size-full wp-image-1694" alt="map" src="{{ site.baseurl }}/assets/map.png" width="316" height="218" /></p>
+<p>All of this is possible if the location of the user is known. However, because this information can compromise user privacy, the position is only available if the user approves it - this permission is requested at a domain level:</p>
+<p style="text-align: left;"><img class="size-full wp-image-1662" alt="pic2" src="{{ site.baseurl }}/assets/pic2.png" width="535" height="41" /></p>
+<p>If the device being used doesn’t have GPS, the system will try to provide a location based on the IP address. This, as one might imagine, will decrease it’s accuracy.</p>
+<p><strong>Now the techie stuff!</strong></p>
+<p>To use this feature, the following method should be called:</p>
+<p style="text-align: left;"><img class="size-full wp-image-1663" alt="pic3" src="{{ site.baseurl }}/assets/pic3.png" width="389" height="37" /></p>
+<p>This method can receive<strong> three parameters</strong>:</p>
+<p>I. <strong>Success</strong>: This is a callback function that will be called as soon as the position is obtained. This parameter is mandatory.</p>
+<p style="text-align: left;"><img class="size-full wp-image-1664" alt="pic4" src="{{ site.baseurl }}/assets/pic4.png" width="322" height="113" /></p>
+<p>This callback function receives a JSON object containing the information obtained:</p>
+<ul>
+<li>Timestamp</li>
+<li>Speed</li>
+<li>Heading</li>
+<li>Altitude</li>
+<li>Altitude Accuracy</li>
+<li>Latitude</li>
+<li>Longitude</li>
+<li>Accuracy</li>
+</ul>
+<p>II. <strong>Error</strong>: This is a callback function that will be called if an error is received when obtaining the position.</p>
+<p style="text-align: left;"><img class="size-full wp-image-1665" alt="pic5" src="{{ site.baseurl }}/assets/pic5.png" width="230" height="115" /></p>
+<p>If the user refused to shared their location, this method will be called stating.</p>
+<p>III. <strong>Options</strong>: This parameter receives a JSON object with the possible configurations that the API may receive:</p>
+<ul>
+<li>enableHighAccuracy:</li>
+<li>timeout</li>
+<li>maximumAge</li>
+</ul>
+<p>To learn more about this API, please see the <a href="http://dev.w3.org/geo/api/spec-source.html" target="_blank">W3C specification</a>.</p>
+<p>&nbsp;</p>
+<h4><span style="color: #000080;"><strong>2. Camera access</strong></span></h4>
+<p><strong>The HTML5 provides the ability to access the media devices presented on the mobile devices: camera (picture/video), microphone, etc.</strong></p>
+<p>To use this feature it’s only required to add some attributes to the upload file tag:</p>
+<p style="text-align: left;"><img class="size-full wp-image-1666" alt="pic6" src="{{ site.baseurl }}/assets/pic6.png" width="297" height="42" /></p>
+<p>In order to use this feature in the OutSystems Platform, just use the upload file widget and add the above tags to the extended properties:</p>
+<p><img class="size-full wp-image-1667 alignnone" alt="pic7" src="{{ site.baseurl }}/assets/pic7.png" width="344" height="254" /></p>
+<p>&nbsp;</p>
+<h4><span style="color: #000080;"><strong>3. Canvas</strong></span></h4>
+<p><strong>The canvas element is part of HTML5 and allows for dynamic, scriptable rendering of 2D shapes and bitmap images. This means that to do something like this:</strong></p>
+<p style="text-align: left;"><img class="size-full wp-image-1668" alt="pic8" src="{{ site.baseurl }}/assets/pic8.png" width="104" height="103" /></p>
+<p>The following HTML tag is added first:</p>
+<p style="text-align: left;"><img class="size-full wp-image-1669" alt="pic9" src="{{ site.baseurl }}/assets/pic9.png" width="295" height="53" /></p>
+<p>Then using JavaScript, elements can be drawn in it:</p>
+<p><img class="size-full wp-image-1670 alignnone" alt="pic10" src="{{ site.baseurl }}/assets/pic10.png" width="241" height="89" /></p>
+<p>But how could the Canvas element be helpful anyhow? Well, to allow the following sort of things:</p>
+<p><img class="alignnone  wp-image-1705" alt="IMG_22012014_103950" src="{{ site.baseurl }}/assets/IMG_22012014_103950.png" width="521" /></p>
+<p>Yes, it’s possible using the canvas to collect the user's signature! (Tablet, Smartphone, etc.)</p>
+<p>&nbsp;</p>
+<h4><span style="color: #000080;"><strong style="font-size: 1em;">4. Web storage</strong></span></h4>
+<p><strong>With HTML5, web pages can store data locally within the user's browser. Earlier, this was done with cookies. However, web storage is more secure and faster.</strong></p>
+<p>Persistent local storage is one area where native client applications have held an advantage over web applications. For native applications, the operating system typically provides an abstraction layer for storing and retrieving application-specific data like preferences or runtime state.</p>
+<p>Simply put, it’s a way for web pages to store named key/value pairs locally within the client web browser. Like cookies, this data persists even after a user navigates away from the web site, closes a browser tab, or exits a browser, etc. Unlike cookies, this data is never transmitted to the remote web server (unless sent manually). Unlike all previous attempts at providing persistent local storage, it is implemented natively in web browsers, so it is available even when third-party browser plugins are not.</p>
+<p>This is one of those features that is still very volatile. Be sure to read the specs and then check if your target browsers support it.</p>
+<p>Read more at <a href="http://diveintohtml5.info/storage.html" target="_blank">http://diveintohtml5.info/storage.html</a></p>
+<p>&nbsp;</p>
+<h4><span style="color: #000080;"><strong>5. App cache</strong></span></h4>
+<p><strong>The cache manifest in HTML5 is a software storage feature which provides the ability to access a web application even without a network connection.</strong></p>
+<p>As is well described in <a href="http://diveintohtml5.info/offline.html" target="_blank">Dive Into HTML5</a>:</p>
+<p style="padding-left: 30px;"><em>“At its simplest, an offline web application is a list of URLs - HTML, CSS, JavaScript, images, or any other kind of resource. The home page of the offline web application points to this list, called a manifest file, which is just a text file located elsewhere on the web server. A web browser that implements HTML5 offline applications will read the list of URLs from the manifest file, download the resources, cache them locally, and automatically keep the local copies up to date as they change. When the time comes that you try to access the web application without a network connection, your web browser will automatically switch over to the local copies instead.”</em></p>
+<p>This means the pages are stored statically in the browser (submit buttons won’t work) and forms will have to be handled manually using Web Storage, for example.</p>
+<p>In order to use this feature, one has to add a tag manifest to the HTML element:</p>
+<p style="text-align: left;"><img class="size-full wp-image-1672" alt="pic12" src="{{ site.baseurl }}/assets/pic12.png" width="234" height="59" /></p>
+<p>This means that the browser will understand that there is cache manifest file that needs to be downloaded. The browser now knows that the following page, plus others, might need to be cached.</p>
+<p>Then the cache manifest file contains several sections:</p>
+<ul>
+<li>Cache: This section will indicate which files (images, css, JS, web pages) should be stored locally.</li>
+<li>Network: This section indicates the resources that require the user to be online.</li>
+<li>Fallback: This section indicates which resources should be served to the user if trying to access them while offline.</li>
+</ul>
+<p>So, typically the cache manifest looks as follows:</p>
+<p style="text-align: left;"><img class="size-full wp-image-1673" alt="pic13" src="{{ site.baseurl }}/assets/pic13.png" width="444" height="262" /></p>
+<p>If using the web storage feature or the cache manifest, first try looking into the following OutSystems Forge component, which will help achieve both:</p>
+<p><a href="http://www.outsystems.com/forge/component/479/html5offline/" target="_blank">http://www.outsystems.com/forge/component/479/html5offline/</a></p>
+<p>Finally, remember that HTML5 is here to stay. Here is what the W3C had to say about the future of web standards in July 2009:</p>
+<p style="padding-left: 30px;"><em>“Today the Director announces that when the XHTML 2 Working Group charter expires as scheduled at the end of 2009, the charter will not be renewed. By doing so, and by increasing resources in the HTML Working Group, W3C hopes to accelerate the progress of HTML5 and clarify W3C’s position regarding the future of HTML.”</em></p>
+<p>Although we (developers) would love to trash all of the old browsers, unfortunately, we can’t. So, if you want to know that a specific feature can be used in a specific browser look at these sites: <a href="http://www.caniuse.com" target="_blank">www.caniuse.com</a> or <a href="http://html5please.com/" target="_blank">http://html5please.com/</a>.</p>
+<p>References:<br />
+<a href="http://diveintohtml5.info/" target="_blank">http://diveintohtml5.info/</a><br />
+<a href="http://www.html5rocks.com/en/" target="_blank">http://www.html5rocks.com/en/</a><br />
+<a href="http://www.w3.org/" target="_blank">http://www.w3.org/</a></p>
