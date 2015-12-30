@@ -17,6 +17,8 @@ url: "http://blog.outsystems.ninja" # the base hostname & protocol for your site
 
 permalink: "/:year/:month/:title.html"
 
+excerpt_separator: "<!--more-->"
+
 twitter_username: jekyllrb
 github_username:  jekyll
 
