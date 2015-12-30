@@ -1,27 +1,969 @@
-<header class="site-header">
+<div class="navigation-outter">
+    <div class="navigation-inner container">
+        <div class="row" id="wt11_wtheader">
+            <style>
+            .submenuhover {
+                top: 80px;
+            }
 
-  <div class="wrapper">
+            .navigation-inner {
+                position: inherit;
+            }
+            </style>
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            <div data-swiftype-index="false" style="position: relative; z-index: 9999;height: 30px;text-align: right;">
+                <style>
+                .header-hero-wrapper {
+                    padding-top: 0;
+                }
 
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
+                .navigation-inner {
+                    height: 80px;
+                }
 
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
+                .navigation-outter.navigation-wrapper {
+                    padding-top: 0px;
+                }
+                </style>
 
-  </div>
+                <div class="secondary-menu">
+                    <span class="header-contacts">Call us at 404-719-5100</span><a alt="Blog" href="/blog/" id="wt11_wtheader_wt20_wt10" title="Blog">Blog</a><a alt="Contact us" href="/company/contact-us/" id="wt11_wtheader_wt20_wt63" title="Contact us">Contacts</a><a alt="Support" href="//success.outsystems.com/Support/" id="wt11_wtheader_wt20_wt58" title="Support">Support</a>
+                </div>
 
-</header>
+
+                <div class="search_field">
+                    <form action="" id="WebForm1" method="get" name="WebForm1">
+                        <input class="search" maxlength="256" name="s" size="30" type="search"> <input class="button" name="" type="submit" value=" ">
+                    </form>
+                </div>
+                <a alt="Login" class="osbtn osbtn-gray header-login" href="https://www.outsystems.com/home/" id="wt11_wtheader_wt20_wt32" onclick="trackEvent(&#39;CS - Navigate To portal&#39;,null,null);setTimeout(function(){window.location.href=&#39;https://www.outsystems.com/home/login.aspx&#39;;},500);" title="Login">Login</a>
+            </div>
+
+
+            <div class="navigation-longtail" data-swiftype-index="false">
+                <div class="span1">
+                </div>
+
+
+                <div class="navigation-bar-section navigation-bar-tail-spacer">
+                    <a href="/" id="wt11_wtheader_wt20_wt41"><img alt="" class="navigation-bar-tail-logo" src="/img/OutSystems_logo.png"></a>
+                </div>
+
+
+                <div class="navigation-items">
+                    <ul class='navigation-bar'>
+                        <li style="list-style: none"><span id="wt11_wtheader_wt20_wt25_wtListSections"></span>
+                        </li>
+
+
+                        <li class='platform'><span id="wt11_wtheader_wt20_wt25_wtListSections"><a data-name="platform" data-option="dropdown" href="/platform/" id="wt11_wtheader_wt20_wt25_wtListSections_ctl00_wt15"><span class="">How It Works</span></a></span>
+                        </li>
+
+
+                        <li class="spacer">
+                        </li>
+
+
+                        <li class='solutions'>
+                            <a data-name="solutions" data-option="dropdown" href="/solutions/" id="wt11_wtheader_wt20_wt25_wtListSections_ctl02_wt15"><span class="solutions">Solutions</span></a>
+                        </li>
+
+
+                        <li class="spacer">
+                        </li>
+
+
+                        <li class='customers'>
+                            <a data-name="customers" data-option="dropdown" href="/customers/" id="wt11_wtheader_wt20_wt25_wtListSections_ctl04_wt15"><span class="customers">Customers</span></a>
+                        </li>
+
+
+                        <li class="spacer">
+                        </li>
+
+
+                        <li class='partners'>
+                            <a data-name="partners" data-option="dropdown" href="/partners/" id="wt11_wtheader_wt20_wt25_wtListSections_ctl06_wt15"><span class="">Partners</span></a>
+                        </li>
+
+
+                        <li class="spacer">
+                        </li>
+
+
+                        <li class='developers'>
+                            <a data-name="developers" data-option="dropdown" href="/developers/" id="wt11_wtheader_wt20_wt25_wtListSections_ctl08_wt15"><span class="">Developers</span></a>
+                        </li>
+
+
+                        <li class="spacer">
+                        </li>
+
+
+                        <li class=''>
+                            <a data-name="company" data-option="dropdown" href="/company/" id="wt11_wtheader_wt20_wt25_wtListSections_ctl10_wt15"><span class="">Company</span></a>
+                        </li>
+
+
+                        <li class="spacer">
+                        </li>
+
+
+                        <li class='get-started'>
+                            <a class="osbtn osbtn-red" data-name="get-started" data-option="" href="/get-started/" id="wt11_wtheader_wt20_wt25_wtListSections_ctl12_wt15"><span class="try-now">Try now for free</span></a>
+                        </li>
+                    </ul>
+
+
+                    <div class="navigation-search-outter navigation-bar-section">
+                    </div>
+                </div>
+                <span id="wt11_wtheader_wt20_wt25_wtListSubMenuHoveSections"></span>
+
+                <div data-dropdown-wrapper="platform" data-swiftype-index="false">
+                    <span id="wt11_wtheader_wt20_wt25_wtListSubMenuHoveSections"></span>
+                    <style type="text/css">
+                    .submenuhover .submenu-cta {
+                        background-color: #6DA7DE;
+                        color: #fff;
+                        font-weight: 400;
+                        text-align: right;
+                        padding: 5px 10px;
+                        border-top: 1px solid #79AEE0;
+                        margin-top: 20px;
+                    }
+
+                    .submenuhover .submenu-cta a {
+                        color: #fff;
+                        text-decoration: underline
+                    }
+
+                    .submenuhover a[target="_blank"]:hover:after {
+                        font-family: 'OS-Icon-Set';
+                        font-size: 0.8em;
+                        content: "\e66a";
+                        position: absolute;
+                        margin-left: 5px;
+                    }
+                    </style>
+
+                    <div class="magiccontainer">
+                        <span id="wt11_wtheader_wt20_wt25_wtListSubMenuHoveSections"></span>
+
+                        <div class="submenuhover submenu-hover-sections">
+                            <span id="wt11_wtheader_wt20_wt25_wtListSubMenuHoveSections"></span>
+
+                            <div class="container">
+                                <span id="wt11_wtheader_wt20_wt25_wtListSubMenuHoveSections"></span>
+
+                                <div class="row">
+                                    <span id="wt11_wtheader_wt20_wt25_wtListSubMenuHoveSections"></span>
+
+                                    <div class="span12 submenuhoverbox" style=" position: relative; height: 100%; padding-bottom: 0;">
+                                        <span id="wt11_wtheader_wt20_wt25_wtListSubMenuHoveSections"></span>
+
+                                        <h2 class="align-center bot10"><span id="wt11_wtheader_wt20_wt25_wtListSubMenuHoveSections">Rapid Application Delivery Platform</span>
+                                        </h2>
+                                        <span id="wt11_wtheader_wt20_wt25_wtListSubMenuHoveSections"></span>
+
+                                        <h5 class="align-center bot20"><span id="wt11_wtheader_wt20_wt25_wtListSubMenuHoveSections">One codebase. All devices. No lock-in.</span>
+                                        </h5>
+                                        <span id="wt11_wtheader_wt20_wt25_wtListSubMenuHoveSections"></span>
+
+                                        <div class="row">
+                                            <span id="wt11_wtheader_wt20_wt25_wtListSubMenuHoveSections"></span>
+
+                                            <div class="span5" style="">
+                                                <span id="wt11_wtheader_wt20_wt25_wtListSubMenuHoveSections"></span>
+
+                                                <div class="submenuhoverbox-secondcontent" style=" padding-left: 20px;">
+                                                    <span id="wt11_wtheader_wt20_wt25_wtListSubMenuHoveSections"></span>
+
+                                                    <h6 class="submenuhoverbox-contentheading"><span id="wt11_wtheader_wt20_wt25_wtListSubMenuHoveSections">Why&nbsp;OutSystems?</span>
+                                                    </h6>
+
+
+                                                    <ul class="list" style="list-style-type: none;font-size: 16px;">
+                                                        <li><span id="wt11_wtheader_wt20_wt25_wtListSubMenuHoveSections"><span class="osicon-tablet">&nbsp;</span> <a href="/platform/madp/">Develop once for all devices</a></span>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <span class="osicon-cogs">&nbsp;</span> <a href="/platform/integrate-everything/">Easily integrate existing systems</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <span class="osicon-dashboard">&nbsp;</span> <a href="/platform/iterate-rapidly/">Rapid delivery, effortless change</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="span4">
+                                                <div class="submenuhoverbox-line" style="position: absolute; margin-left: -15px; height: 160px;">
+                                                    &nbsp;
+                                                </div>
+
+
+                                                <div class="submenuhoverbox-secondcontent" style="">
+                                                    <h6 class="submenuhoverbox-contentheading">OutSystems Platform</h6>
+
+
+                                                    <ul class="list" style="list-style-type: none;font-size: 16px;">
+                                                        <li>
+                                                            <a href="/platform/">Overview</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="/apps/">Pre-built&nbsp;Apps</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="/pricing-and-licensing/">Pricing</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="/platform/sap/">OutSystems for SAP</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="/platform/whats-new-in-platform-9-bali/">What&#39;s New in Platform 9 Bali</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="span3">
+                                                <div class="submenuhoverbox-line" style="position: absolute;margin-left: -15px;height: 160px;visibility: hidden;">
+                                                    &nbsp;
+                                                </div>
+
+
+                                                <div class="submenuhoverbox-secondcontent" style="margin-left: 0;">
+                                                    <h6 class="submenuhoverbox-contentheading" style=" visibility: hidden;">Learn more...</h6>
+
+
+                                                    <ul class="list" style="list-style-type: none;display: inline-block;font-size: 16px;/* height: 170px; */">
+                                                        <li>
+                                                            <a href="https://success.outsystems.com/Evaluation/Architecture" target="_blank">Architecture</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="https://success.outsystems.com/Evaluation/Security" target="_blank">Security</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="https://success.outsystems.com/Evaluation/Scalability" target="_blank">Scalability</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="https://success.outsystems.com/Evaluation/Performance" target="_blank">Performance</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="https://success.outsystems.com/Evaluation" style=" font-family: Arial; font-size: 14px; font-weight: 400; line-height: 20px;" target="_blank">Learn More &raquo;</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="submenu-cta">
+                                            <span><strong>Questions?</strong> Join us for a <a href="/1/outsystems-platform-demo/">live demo</a> or <a href="/company/contact-us/">contact us</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div data-dropdown-wrapper="solutions" data-swiftype-index="false">
+                    <style type="text/css">
+                    body.landing-no-top {}
+
+                    @media screen and (max-width: 767px) {
+                        .header-hero-wrapper {}
+                    }
+                    </style>
+
+                    <div class="magiccontainer">
+                        <div class="submenuhover" id="submenu-solutions">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="span12 align-center submenuhoverbox">
+                                        <div class="row">
+                                            <div class="span4" style=" margin-left: -10px;">
+                                                <div class="submenuhoverbox-firstcontent" style="margin-left:100px">
+                                                    <h1>Solutions</h1>
+
+
+                                                    <h5 style=" padding-bottom: 50px;">Hundreds of companies<br>
+                                                    in 22 industries use<br>
+                                                    OutSystems Platform to<br>
+                                                    deliver innovative<br>
+                                                    business solutions.</h5>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="span4" style="">
+                                                <div class="submenuhoverbox-line" style=" position: absolute; margin-left: -15px;">
+                                                    &nbsp;
+                                                </div>
+
+
+                                                <div class="submenuhoverbox-secondcontent">
+                                                    <h6 class="submenuhoverbox-contentheading">See what our customers have built in industries like:</h6>
+
+
+                                                    <ul class="list" style="list-style-type: none; font-size:16px">
+                                                        <li>
+                                                            <span class="osicon-home-banking" style="color: #808080;">&nbsp;</span> <a href="/solutions/banking/">Banking</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <span class="osicon-insurance" style="color: #808080;">&nbsp;</span> <a href="/solutions/insurance/">Insurance</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <span class="osicon-academy" style="color: #808080;">&nbsp;</span> <a href="/solutions/higher-education/">Higher Education</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <span class="osicon-healthcare" style="color: #808080;">&nbsp;</span> <a href="/solutions/healthcare/">Healthcare</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <span class="osicon-science" style="color: #808080;">&nbsp;</span> <a href="/solutions/pharmaceutical-and-biotech/">Pharma &amp; Biotech</a>
+                                                        </li>
+
+
+                                                        <li style="margin-top: 16px;">
+                                                            <a href="/solutions/all-industries/" style="display: block;">All industries &raquo;</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="span4">
+                                                <div class="submenuhoverbox-line" style=" position: absolute; margin-left: -15px;">
+                                                    &nbsp;
+                                                </div>
+
+
+                                                <div class="submenuhoverbox-secondcontent" style="">
+                                                    <h6 class="submenuhoverbox-contentheading"><span style="color: rgb(128, 128, 128); font-family: myriad-pro, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; line-height: 22px; background-color: rgb(255, 255, 255);">Kick-start your next app project with our pre-built apps</span>:</h6>
+
+
+                                                    <ul class="innovationlist" style="font-size:16px; color:#808080;">
+                                                        <li>
+                                                            <a href="/apps/field-services-app/">Field Services</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="/apps/mobile-order-management-app/">Mobile Order Management</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="/apps/executive-dashboard-app/">Executive Dashboard</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="/apps/customer-portal-app/">Customer Portal</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="/apps/accident-reporting-app/">Car Accident Reporting</a>
+                                                        </li>
+
+
+                                                        <li style="margin-top: 16px; list-style-type: none; margin-left: -20px;">
+                                                            <a href="/apps/" style="display: block;">More apps &raquo;</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div data-dropdown-wrapper="customers" data-swiftype-index="false">
+                    <div class="magiccontainer">
+                        <div class="submenuhover submenu-hover-sections" id="submenu-customers">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="span12 align-center submenuhoverbox">
+                                        <div class="row">
+                                            <div class="span4" style="">
+                                                <div class="submenuhoverbox-secondcontent">
+                                                    <h6 class="submenuhoverbox-contentheading">Customers</h6>
+
+
+                                                    <div style="padding: 0 0 10px 0px;">
+                                                        <a href="/customers/"><img src="http://website.outsystems.ninja/cms_backoffice/assets/20150730182041/mega-menu-customers" style="margin-top: -16px; margin-bottom: -6px;"></a>
+                                                    </div>
+
+
+                                                    <div style="padding: 3px 0 0 0; font-size: 16px;">
+                                                        <a href="/customers/" style="display: block;">See more customers &raquo;</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="span4">
+                                                <div class="submenuhoverbox-line" style="position: absolute; margin-left: -15px;">
+                                                    &nbsp;
+                                                </div>
+
+
+                                                <div class="submenuhoverbox-secondcontent" style=" margin-left: 25px;">
+                                                    <h6 class="submenuhoverbox-contentheading">Case Studies</h6>
+
+
+                                                    <div class="customers-case-study-preview" style=" padding: 18px 11px;height: auto;">
+                                                        <a href="/case-studies/fico/origination-manager-application/" title="Read Case Study"><img alt="FICO" src="http://website.outsystems.ninja/cms_backoffice/assets/20150730182041/logo-card" style="width: 81px; height: 23px;"></a>
+
+                                                        <p style="margin: 18px 11px; text-align: lef; font-size: 14px; line-height: 18px;"><a href="/case-studies/fico/origination-manager-application/" style="color: #333333;" title="Read Case Study">&quot;We reduced our development hours by 75% and got to market 3x faster using OutSystems.</a>
+                                                        </p>
+                                                    </div>
+
+
+                                                    <p style=" font-size: 16px; margin-top: 11px;"><a href="/case-studies/all-case-studies/">See all case studies &raquo;</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="span4">
+                                                <div class="submenuhoverbox-line" style=" position: absolute; margin-left: -15px; border-right-width: 0;">
+                                                    &nbsp;
+                                                </div>
+
+
+                                                <div class="submenuhoverbox-secondcontent" style=" margin-left: 25px;">
+                                                    <div class="customers-case-study-preview" style=" padding: 18px 11px;height: auto; margin-top: 41px;">
+                                                        <a href="/case-studies/liberty/insurance-management-system/" title="Read Case Study"><img alt="Liberty Seguros" src="http://website.outsystems.ninja/cms_backoffice/assets/20150817182058/Liberty" style="height: 42px; margin-left: 10px; width: 83px;"></a>
+
+                                                        <p style=" margin: 18px 11px; text-align: lef; font-size: 14px; line-height: 18px;"><a href="/case-studies/liberty/insurance-management-system/" style="color: #333333;" title="Read Case Study">&quot;We rely on OutSystems Platform for all web and mobile development.&quot;</a>
+                                                        </p>
+                                                    </div>
+
+
+                                                    <p style=" font-size: 16px; margin-top: 11px;"><a href="/customers/innovation-awards/">See innovation award winners &raquo;</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div data-dropdown-wrapper="partners" data-swiftype-index="false">
+                    <style type="text/css">
+                    .ImplementationPartnersMegaMenu img {
+                        width: 89px;
+                    }
+
+                    span.Partner-matrix {
+                        margin: 0 0 3px 5px;
+                        border: 1px solid #F4F4F4;
+                        margin-left: 2px;
+                        margin-bottom: 2px;
+                    }
+
+                    .PartnersMegaMenu img {
+                        width: 125px;
+                        padding-bottom: 6px;
+                    }
+                    </style>
+
+                    <div class="magiccontainer">
+                        <div class="submenuhover submenu-hover-sections" id="submenu-partners">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="span12 align-center submenuhoverbox">
+                                        <div class="row">
+                                            <div class="span8" style="">
+                                                <div class="row">
+                                                    <div class="span4" style="">
+                                                        <div class="submenuhoverbox-secondcontent ImplementationPartnersMegaMenu" style=" text-align: center;">
+                                                            <h6 class="submenuhoverbox-contentheading">Implementation Partners</h6>
+                                                            <a href="/partners/" style="text-decoration: none; display: block;"><span class="Partner-matrix" style="display: inline-block;"><img alt="atos" src="http://website.outsystems.ninja/cms_backoffice/assets/20150807140321/atosmegamenu" style=""></span> <span class="Partner-matrix" style="display: inline-block;"><img alt="atc" src="http://website.outsystems.ninja/cms_backoffice/assets/20150807140321/atcmegamenu"></span> <span class="Partner-matrix" style="display: inline-block;"><img alt="cgi" src="http://website.outsystems.ninja/cms_backoffice/assets/20150807140321/cgimegamenu"></span> <span class="Partner-matrix" style="display: inline-block;"><img alt="optra" src="http://website.outsystems.ninja/cms_backoffice/assets/20150807140321/optramegamenu" style=""></span> <span class="Partner-matrix" style="display: inline-block;"><img alt="hp" src="http://website.outsystems.ninja/cms_backoffice/assets/20150807140321/hpmegamenu"></span><span class="Partner-matrix" style="display: inline-block;"><img alt="kpmg" src="http://website.outsystems.ninja/cms_backoffice/assets/20150807140321/kpmgmegamenu"></span></a>
+
+                                                            <div style=" padding: 7px 0 0 0; font-size: 16px;">
+                                                                <a href="/partners/" style="display: block; margin-left: -73px;">See all partners &raquo;</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="span4" style="">
+                                                        <div class="submenuhoverbox-secondcontent">
+                                                            <h6 class="submenuhoverbox-contentheading">Why Become a Partner?</h6>
+
+
+                                                            <div class="customers-case-study-preview" style="padding: 7px 14px; height: auto;">
+                                                                <img src="http://website.outsystems.ninja/cms_backoffice/assets/20150807140321/isb_global_cores" style="width: 130px; /* height: 23px; */">
+
+                                                                <p style="margin: 5px 11px; text-align: left; font-size: 14px; line-height: 18px;"><a href="/case-studies/isb-global/sap-mobile-application/" style="color: #333333;" title="Read Case Study">&quot;OutSystems Platform is a key component of our product development roadmap and its capabilities enable us to build and deliver functionalities to meet our customer&#39;s requirement and timelines&quot;</a>
+                                                                </p>
+                                                            </div>
+
+
+                                                            <div style="padding: 15px 0 0 0; font-size: 16px;">
+                                                                <a href="/partners/become-a-partner/" style="display: block;">Become a Partner &raquo;</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="span4">
+                                                <div class="submenuhoverbox-line" style="position: absolute; margin-left: -15px;">
+                                                    &nbsp;
+                                                </div>
+
+
+                                                <div class="submenuhoverbox-secondcontent PartnersMegaMenu" style=" text-align: center; width: 80%;">
+                                                    <h6 class="submenuhoverbox-contentheading">Technical Partners</h6>
+
+
+                                                    <div style="padding: 0 0 10px 0px;">
+                                                        <span style="display: block;"><a href="http://global.sap.com/community/ebook/2013_09_adpd/enEN/search.html#search=outsystems&amp;recordid=3832" target="_blank"><img alt="SAP" src="http://website.outsystems.ninja/cms_backoffice/assets/20150807140321/sap"></a></span> <span style="display: block;"><a href="https://solutions.oracle.com/scwar/scr/Partner/SCPP-OUTSYSTEMS.html" target="_blank"><img alt="oracle" src="http://website.outsystems.ninja/cms_backoffice/assets/20150807140321/oracle"></a></span> <span style="display: block;"><a href="http://pinpoint.microsoft.com/en-CY/partners/OutSystems-4295535901" target="_blank"><img alt="microsoft" src="http://website.outsystems.ninja/cms_backoffice/assets/20150807140321/microsoft-partner"></a></span> <span style="display: inline-block;"><a href="http://www.aws-partner-directory.com/PartnerDirectory/PartnerDetail?Name=OutSystems" target="_blank"><img alt="amazon" src="http://website.outsystems.ninja/cms_backoffice/assets/20150807140321/amazon-web-services"></a></span> <a href="/partners/"></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div data-dropdown-wrapper="developers" data-swiftype-index="false">
+                    <div class="magiccontainer">
+                        <div class="submenuhover" id="submenu-learn-and-support">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="span12 align-center submenuhoverbox">
+                                        <div class="row">
+                                            <style type="text/css">
+                                            a.recommended-file:before {
+                                                background: url('/CommunityBaseTheme/img/icons.png?20249') no-repeat -6px -66px;
+                                                width: 22px;
+                                                height: 20px;
+                                                display: block;
+                                                content: "";
+                                                float: left;
+                                            }
+
+                                            a.menu-leaderboard:before {
+                                                background: url('/CommunityBaseTheme/img/icons.png?20249') no-repeat -72px -1543px;
+                                                width: 23px;
+                                                height: 20px;
+                                                display: block;
+                                                content: "";
+                                                float: left;
+                                            }
+
+                                            a.menu-forums:before {
+                                                background: url('/CommunityBaseTheme/img/icons.png?20249') no-repeat -5px -842px;
+                                                width: 23px;
+                                                height: 20px;
+                                                display: block;
+                                                content: "";
+                                                float: left;
+                                            }
+
+                                            a.menu-contact:before {
+                                                background: url('/CommunityBaseTheme/img/icons.png?20249') no-repeat -4px -334px;
+                                                width: 24px;
+                                                height: 20px;
+                                                display: block;
+                                                content: "";
+                                                float: left;
+                                                padding-right: 0px;
+                                            }
+
+                                            a.menu-forge:before {
+                                                background: url('/CommunityBaseTheme/img/icons.png?20249') no-repeat -6px -983px;
+                                                width: 23px;
+                                                height: 20px;
+                                                display: block;
+                                                content: "";
+                                                float: left;
+                                            }
+
+                                            a.menu-ideas:before {
+                                                background: url('/CommunityBaseTheme/img/icons.png?20249') no-repeat -6px -1054px;
+                                                width: 23px;
+                                                height: 20px;
+                                                display: block;
+                                                content: "";
+                                                float: left;
+                                            }
+
+                                            a.menu-support:before {
+                                                background: url('/CommunityBaseTheme/img/icons.png?20249') no-repeat -66px -1169px;
+                                                width: 23px;
+                                                height: 20px;
+                                                display: block;
+                                                content: "";
+                                                float: left;
+                                            }
+                                            </style>
+
+                                            <div class="span4" style="">
+                                                <div class="submenuhoverbox-secondcontent" style="margin-left:50px margin-right: 0px;">
+                                                    <h6 class="submenuhoverbox-contentheading">Why OutSystems</h6>
+
+
+                                                    <div class="customers-case-study-preview" style=" padding: 18px 11px;height: auto;">
+                                                        <p style="margin: 0px 11px; text-align: left; font-size: 14px; line-height: 18px;"><a href="/developers/" style="color: #333333;">&quot;I learned OutSystems in just two weeks and in one month I was more productive than ever.&quot;</a>
+                                                        </p>
+
+
+                                                        <div style=" margin-top: 12px; font-size: 12px; color: #606060;">
+                                                            <img alt="Ovum" src="http://website.outsystems.ninja/cms_backoffice/assets/20150807140846/mariajoao-mini-photo" style=" padding: 0px 5px 0px 10px; height: 40px; width: 40px; vertical-align: top;">
+
+                                                            <div style=" display: inline-block; width: 165px;">
+                                                                <div style="font-weight: 600;">
+                                                                    Maria Jo&atilde;o Portela,
+                                                                </div>
+
+
+                                                                <div>
+                                                                    OutSystems Developer at iCreate
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <ul class="list top10" style="list-style-type: none; font-size:16px">
+                                                        <li>
+                                                            <a href="/developers/">Benefits for Developers &raquo;</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="span4">
+                                                <div class="submenuhoverbox-line" style=" position: absolute; margin-left: -15px;">
+                                                    &nbsp;
+                                                </div>
+
+
+                                                <div class="submenuhoverbox-secondcontent">
+                                                    <h6 class="submenuhoverbox-contentheading">Learn</h6>
+
+
+                                                    <ul class="list" style="list-style-type: none; font-size:16px">
+                                                        <li>
+                                                            <a href="/learn/">Free Training Courses</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="/help/servicestudio/9.0/">Documentation</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="https://success.outsystems.com/Evaluation" target="_blank">Common Questions</a>
+                                                        </li>
+                                                    </ul>
+
+
+                                                    <h6 class="submenuhoverbox-contentheading top30">Community Forge</h6>
+
+
+                                                    <ul class="list" style="list-style-type: none; font-size:16px">
+                                                        <li>
+                                                            <a href="/forge/">Open source components</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="/forge/#category=applications">Sample applications</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="span4">
+                                                <div class="submenuhoverbox-line" style=" position: absolute; margin-left: -15px;">
+                                                    &nbsp;
+                                                </div>
+
+
+                                                <div class="submenuhoverbox-secondcontent" style="">
+                                                    <h6 class="submenuhoverbox-contentheading">Community Forums</h6>
+
+
+                                                    <ul class="list" style="list-style-type: none; font-size:16px">
+                                                        <li>
+                                                            <a class="menu-forums" href="/forums/25/technology-integration/">Technology &amp; Integrations</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a class="menu-forums" href="/forums/49/guides-how-tos/">Guides &amp; How-tos</a>
+                                                        </li>
+                                                    </ul>
+
+
+                                                    <h6 class="submenuhoverbox-contentheading top40">Support</h6>
+
+
+                                                    <ul class="list" style="list-style-type: none; font-size:16px">
+                                                        <li>
+                                                            <a class="menu-forums" href="/forums/55/personal-environment-troubleshooting/">Personal environment Forum</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a class="menu-support" href="http://success.outsystems.com/support">Support Knowledge Base</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div data-dropdown-wrapper="company" data-swiftype-index="false">
+                    <div class="magiccontainer">
+                        <div class="submenuhover submenu-hover-sections" id="submenu-about-us">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="span12 align-center submenuhoverbox">
+                                        <div class="row">
+                                            <div class="span4">
+                                                <div class="submenuhoverbox-secondcontent" style="margin-left:70px">
+                                                    <h6 class="submenuhoverbox-contentheading">Company</h6>
+
+
+                                                    <ul class="list" style="list-style-type: none; font-size:16px">
+                                                        <li>
+                                                            <a href="/company/about/">About Us</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="/company/contact-us/">Offices Worldwide</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="/company/management-team/">Management Team</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="/company/investors/">Investors</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="/company/news/">News</a>
+                                                        </li>
+
+
+                                                        <li>
+                                                            <a href="/company/careers/">Careers</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="span4" style="">
+                                                <div class="submenuhoverbox-line" style=" position: absolute; margin-left: -15px;">
+                                                    &nbsp;
+                                                </div>
+
+
+                                                <div class="submenuhoverbox-secondcontent">
+                                                    <h6 class="submenuhoverbox-contentheading">Culture</h6>
+
+
+                                                    <div style="padding-left: 30px;">
+                                                        <p><img alt="Small Book of the Few Big Rules" src="http://website.outsystems.ninja/cms_backoffice/assets/20150807140910/Small-Book-of-the-Few-Big-Rules-small" style="width: 184px; height: 136px;">
+                                                        </p>
+
+
+                                                        <p style="text-align:center; margin-top:-12px;"><a href="/the-small-book/">Download your copy of<br>
+                                                        The Small Book of the Few Big Rules</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="span4">
+                                                <div class="submenuhoverbox-line" style=" position: absolute; margin-left: -15px;">
+                                                    &nbsp;
+                                                </div>
+
+
+                                                <div class="submenuhoverbox-secondcontent" style="">
+                                                    <h6 class="submenuhoverbox-contentheading">Blog</h6>
+
+
+                                                    <ul class='list' style='list-style-type: none;font-size: 16px;width: 237px;'>
+                                                        <li>
+                                                            <a href='http://www.outsystems.com/blog/2015/11/the-ultimate-guide-to-understanding-outsystems.html' target='_blank'>The Ultimate Guide to Understanding OutSystems</a>
+
+                                                            <p style='font-size: 14px;margin-top: 10px;'>By Miguel Lopes on November 19, 2015</p>
+                                                        </li>
+                                                    </ul>
+
+
+                                                    <div class="pt" id="footer-mid">
+                                                        <ul class="social-icons">
+                                                            <li>
+                                                                <a class="twitter" href="https://twitter.com/OutSystems" target="_blank">Twitter</a>
+                                                            </li>
+
+
+                                                            <li>
+                                                                <a class="facebook" href="https://www.facebook.com/OutSystems" target="_blank">Facebook</a>
+                                                            </li>
+
+
+                                                            <li>
+                                                                <a class="google" href="https://plus.google.com/+outsystems" target="_blank">G+</a>
+                                                            </li>
+
+
+                                                            <li>
+                                                                <a class="linkedin" href="http://www.linkedin.com/company/outsystems" target="_blank">linkedin</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="navigation-longtail-end">
+                </div>
+            </div>
+            <style type="text/css">
+            .sub-navigation-bar li a {
+                margin-left: 26px;
+            }
+            </style>
+
+            <div class="second-level-menu-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="span3">
+                            <span class="title"><span>Company</span></span>
+                        </div>
+
+
+                        <div class="span9">
+                            <ul class="sub-navigation-bar company-menu">
+                                <li class="overview">
+                                    <a href="/company/about/"><span>Overview</span></a>
+                                </li>
+
+
+                                <li class="events">
+                                    <a href="/company/events/"><span>Events</span></a>
+                                </li>
+
+
+                                <li class="news">
+                                    <a href="/company/news/"><span>News</span></a>
+                                </li>
+
+
+                                <li class="management-team">
+                                    <a href="/company/management-team/"><span>Management Team</span></a>
+                                </li>
+
+
+                                <li class="careers">
+                                    <a href="/company/careers/"><span>Careers</span></a>
+                                </li>
+
+
+                                <li class="analysts">
+                                    <a href="/company/analysts/"><span>Analysts</span></a>
+                                </li>
+
+
+                                <li class="investors">
+                                    <a href="/company/investors/"><span>Investors</span></a>
+                                </li>
+
+
+                                <li class="active">
+                                    <a href="/"><span>Blog</span></a>
+                                </li>
+
+
+                                <li class="contact-us">
+                                    <a href="/company/contact-us/"><span>Offices</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!--[if IE 7]>      <style>          .navigation-longtail-end{              display: none;          }          .navigation-items{              width: 630px;          }          .navigation-longtail{              width: 1100px;          }        </style>  <![endif]-->
+        </div>
+    </div>
+</div>
