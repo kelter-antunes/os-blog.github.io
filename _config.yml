@@ -27,6 +27,7 @@ github_username:  jekyll
 
 disqus:
  shortname: 'os-blog-poc'
+ disqus_on: true
 
 
 gems: [jekyll-paginate]
