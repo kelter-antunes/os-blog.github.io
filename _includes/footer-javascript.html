@@ -3,11 +3,18 @@
 
 
 <!-- <script src="/js/infinite-jekyll.js"></script> -->
-
+<script type="text/javascript" src="/js/masonry.pkgd.js"></script>
 
 <script type="text/javascript">
 $(document).ready(function() {
     
+	$('.posts').masonry({
+		columnWidth: 306,
+		itemSelector: '.post',
+		gutter: 30
+	});
+
+
     $.getJSON("https://www.outsystems.com/footer.aspx", function(data) {
         if (data.locale)
             $('#footer-mid').addClass(data.locale);
@@ -16,5 +23,6 @@ $(document).ready(function() {
         if (data.contactus)
             $('#footer-contactus-table').append($(data.contactus));
     });
+    
 });
 </script>

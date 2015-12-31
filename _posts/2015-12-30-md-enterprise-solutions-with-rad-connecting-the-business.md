@@ -23,6 +23,8 @@ _This article was originally posted on [LinkedIn Pulse] on December 15, 2015._
 
 We believe that in a company daily activity, there is a tremendous amount of information that gets lost in data silos, not being integrated with the corporate systems, and it means that ultimately there is an opportunity to take advantage of that information in order to optimize costs, generate more revenues and discover new insights that can lead to optimization and maximization in areas that never been in our radar.
 
+<!--more-->
+
 Deloitte adopted OutSystems as a platform to build engaging business solutions as we recognized it’s ability to accomplish great results with lower costs and great value added to our customers by:
 
 * Extend corporate solutions, such as ERP, SRM, CRM or others, in a user/client driven approach, taking advantage of the core and mature processes that these corporate solutions provide;

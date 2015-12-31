@@ -1,0 +1,10 @@
+categories:
+ tech-zone:
+  display_name: "Dev Zone"
+  slug: ""
+ platform-in-action:
+  display_name: "Platform in Action"
+  slug: "platform-in-action"
+ perspectives:
+  display_name: "Perspectives"
+  slug: "perspectives"
