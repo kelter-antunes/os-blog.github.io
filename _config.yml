@@ -19,12 +19,14 @@ permalink: "/:year/:month/:title.html"
 
 excerpt_separator: "<!--more-->"
 
-paginate: 10
+paginate: 20
 paginate_path: "/page:num"
 
 twitter_username: jekyllrb
 github_username:  jekyll
 
+disqus:
+ shortname: 'os-blog-poc'
 
 
 gems: [jekyll-paginate]

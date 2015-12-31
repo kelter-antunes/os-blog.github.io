@@ -2,6 +2,7 @@
 layout: post
 title: "[MD] Enterprise Solutions with RAD - Connecting the business"
 date: "2015-12-29 17:13:53 +0000"
+comments: true
 categories: 
   - Platform in Action
 tags: 
