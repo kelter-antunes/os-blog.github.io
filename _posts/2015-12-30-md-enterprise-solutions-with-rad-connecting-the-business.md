@@ -20,7 +20,8 @@ author:
 ---
 _This article was originally posted on [LinkedIn Pulse] on December 15, 2015._
 
-![diogoh]({{ site.baseurl }}/assets/diogoh-300x172.jpg)The world is changing at a fast pace and generating more information than ever before, so we want our clients to keep up, in order to take the lead and overcome the challenges that present to our organizations everyday.
+<img src="{{ site.baseurl }}/assets/diogoh-300x172.jpg" alt="diogoh" style="float: right;">
+The world is changing at a fast pace and generating more information than ever before, so we want our clients to keep up, in order to take the lead and overcome the challenges that present to our organizations everyday.
 
 We believe that in a company daily activity, there is a tremendous amount of information that gets lost in data silos, not being integrated with the corporate systems, and it means that ultimately there is an opportunity to take advantage of that information in order to optimize costs, generate more revenues and discover new insights that can lead to optimization and maximization in areas that never been in our radar.
 
